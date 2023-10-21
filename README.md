@@ -43,6 +43,7 @@ Daftar Isi
 5.5	Proses Bisnis
 5.6	Persyaratan
 
+
 1.	Pengantar
 
 1.1	Tujuan
@@ -110,6 +111,7 @@ Dokumen ini merujuk pada hasil observasi yang berkaitan dengan kebutuhan dan men
 5.	https://appmaster.io/id/blog/proses-pengembangan-aplikasi-gps-dan-contohnya
 6.	https://cartrack.id/id/5-fitur-gps-tracker-yang-wajib-ada-dalam-sistem-pemantauan-kendaraan
 
+
 2.	Deskripsi Keseluruhan
 
 2.1	Perspektif Produk
@@ -149,7 +151,7 @@ Pengguna GPS tracking untuk sepeda motor memiliki kepentingan yang beragam, term
 Peralatan operasional untuk GPS tracking sepeda motor terdiri dari beberapa komponen yang bekerja secara bersama-sama untuk melacak dan memantau sepeda motor. Berikut adalah peralatan utama yang terlibat dalam operasional GPS tracking sepeda motor :
 
 1.	GPS Tracker: GPS tracker adalah perangkat yang dipasang pada sepeda motor untuk melacak lokasi dan mengirimkan data melalui sinyal GPS. GPS tracker dapat berbentuk perangkat kecil yang terpasang di bawah jok, di bawah bodi, atau di bagian lain yang tersembunyi pada sepeda motor. Ini berfungsi untuk mengumpulkan informasi lokasi dan mentransmisikannya ke server atau platform yang terhubung.
-2.	GPS Satelit: GPS tracker menggunakan sinyal dari jaringan satelit GPS untuk menentukan lokasi yang akurat. Jaringan satelit ini mengorbit di sekitar Bumi dan menyediakan sinyal yang diterima oleh GPS tracker untuk menentukan koordinat geografis sepeda motor.\
+2.	GPS Satelit: GPS tracker menggunakan sinyal dari jaringan satelit GPS untuk menentukan lokasi yang akurat. Jaringan satelit ini mengorbit di sekitar Bumi dan menyediakan sinyal yang diterima oleh GPS tracker untuk menentukan koordinat geografis sepeda motor.
 3.	SIM Card: Beberapa GPS tracker membutuhkan kartu SIM untuk mengirim data lokasi dan informasi melalui jaringan seluler. Kartu SIM ini digunakan untuk menghubungkan GPS tracker dengan server atau platform yang dikelola, sehingga data dapat dikirim secara real-time.
 4.	Server atau Platform: Data yang dikumpulkan oleh GPS tracker dikirim  ke server atau platform yang terhubung. Ini bisa berupa server perusahaan atau platform berbasis web yang dapat diakses melalui aplikasi mobile atau situs web. Server atau platform ini menerima dan menyimpan data lokasi, riwayat perjalanan, dan informasi lainnya dari sepeda motor yang dilacak.
 5.	Aplikasi Mobile atau Web: Pengguna GPS tracking dapat mengakses informasi dan mengendalikan sepeda motor melalui aplikasi mobile atau platform berbasis web. Aplikasi ini biasanya menyediakan tampilan real-time dari posisi sepeda motor, notifikasi, riwayat perjalanan, dan fitur pengaturan lainnya seperti geofencing atau alarm.
@@ -197,6 +199,34 @@ Asumsi dan ketergantungan GPS tracking untuk sepeda motor melibatkan beberapa fa
 
 Asumsi dan ketergantungan ini harus dipertimbangkan ketika menggunakan GPS tracking untuk sepeda motor. Penting untuk memahami batasan dan memastikan bahwa kondisi dan faktor-faktor tersebut terpenuhi untuk memperoleh hasil  yang akurat dan efektif dari GPS tracking.
 
+
+3.	Persyaratan Antarmuka
+
+3.1	Antarmuka Pengguna
+Berikut adalah deskripsi tentang tentang aplikasi GPS Tracking Motorcycle : 
+
+Didalam tampilan pertama saat membuka aplikasi GPS Tracking Motorcycle, user diminta untuk login jika sudah mempunyai akun dan sign up (daftar) jika belum mempunyai akun. Setelah mendaftar atau login, user akan dialihkan ke halaman utama aplikasi. Didalam halaman utama ini terdapat tampilan nama user, setting, dan berbagai menu seperti real-time location, find location, connect to motorcycle, history location dan notification.
+
+Didalam menu settings terdapat fitur untuk mengganti nama, email, nama brand sepeda motor, password, plat nomor sepeda motor, dan nomor telepon. Didalam menu setting juga user bisa memilih mode pelacakan yang akan digunakan seperti :
+a.	Mode real-time yang memungkinkan pengguna untuk melihat lokasi sepeda motor secara langsung dan akurat.
+b.	Mode interval yang akan memperbarui lokasi pada interval waktu tertentu seperti setiap 1 menit, 5 menit, atau 15 menit. Mode ini berguna untuk menghematdaya baterai pada perangkat dan mengurangi penggunaan data.
+c.	Mode geofencing yang akan memperbarui lokasi ketika memasuki atau meninggalkan wilayah tertentu.
+d.	Mode non aktif tidak akan memperbarui lokasi apapun
+
+Dalam menu real-time yang ada disebelah kiri terdapat beberapa fitur yaitu untuk memungkinkan pengguna websitw atau user untuk melihat lokasi sepeda  motor secara langsung dan akurat dalam waktu nyata. Informasi lokasi yang terus diperbarui memungkinkan pengguna untuk melacak pergerakan sepeda motor secara aktif. Disana juga terdapat beberapa pilihan seperti rute, simpan, informasi, estimasi waktu tempuh, informasi, dan bagikan. Sedangkan gambar yang disebelah kanan merupakan tampilan dari menu find location. Fitur ini berguna untuk mencari lokasi yang akan dituju. Fitur ini juga memungkinkan pengguna untuk menemukan lokasi sepeda motor secara cepat dan efisien. Pengguna dapat menggunakan fitur  pencarian dalam aplikasi untuk menemukan posisi sepeda motor yang mungkin terparkir di tempat yang tidak dikenal atau hilang.
+
+Terdapat tampilan dari menu connect to motorcycle. Didalamnya user diminta untuk menscan barcode yang terdapat pada alat gps untuk disambungkan ke website. Dalam gambar yang berada dikiri merupakan tampilan dari menu history location yang berisi tentang histori lokasi yang telah dikunjungi pada hari ini atau hari sebelumnya. Didalam histori ini juga menampilkan waktu atau jam pada saat mengunjungi lokasi tersebut. Dalam gambar yang beraada disebelah kanan merupakan tampilan dari menu notification yang tampilannya hampir mirip dengan history location, yaitu menampilkan notifikasi pada hari ini atau sebelumnya. Didalam tampilan tersebut juga sudah dilengkapi dengan tanggal dan waktu kapan notifikasi tersebut masuk.
+
+3.2	Antarmuka Perangkat Keras
+Berikut adalah beberapa hardware interfaces (antarmuka perangkat keras) dalam aplikasi GPS Tracking Motorcycle :
+
+a.	Modul GPS: Menghubungkan modul GPS ke sepeda motor untuk menerima sinyal satelit dan memberikan informasi lokasi.
+b.	Antena GPS: Digunakan untuk menerima sinyal satelit yang diperlukan untuk pelacakan lokasi.
+c.	Unit Pengendali (Server): Menghubungkan unit pengendali atau pemroses untuk mengelola data pelacakan GPS.
+d.	Layar atau Tampilan: Menampilkan informasi pelacakan GPS kepada pengemudi, seperti posisi, kecepatan, dan jarak.
+e.	Tombol atau Pengontrol: Memberikan pengendalian atau interaksi kepada pengemudi untuk mengaktifkan fitur pelacakan atau melakukan operasi lainnya.
+f.	Sensor Tambahan: Menghubungkan sensor tambahan, seperti sensor kecepatan atau suhu, untuk memberikan data tambahan.
+
 3.3	Antarmuka Perangkat Lunak
 Dalam aplikasi GPS tracking sepeda motor, terdapat beberapa software interfaces penting:
 API untuk komunikasi dengan sistem lain, antarmuka pengguna untuk interaksi dengan pengemudi, database untuk penyimpanan data, antarmuka geospasial untuk interaksi dengan data peta dan lokasi, antarmuka komunikasi jaringan untuk pertukaran data, dan antarmuka perangkat keras untuk komunikasi dengan perangkat fisik. Semua antarmuka ini penting untuk integrasi yang baik dan pengalaman pengguna yang lancar.
@@ -211,6 +241,7 @@ d.	SMS: Menggunakan pesan teks untuk mengirim data pelacakan, notifikasi, atau p
 e.	Bluetooth: Antarmuka komunikasi dengan perangkat lain yang terhubung ke sepeda motor, seperti wearables atau sensor tambahan.
 f.	Push Notification: Mengirim notifikasi langsung ke pengguna, seperti peringatan zona terlarang.
 g.	Streaming Data: Mengirim data pelacakan secara kontinu dalam waktu nyata ke server atau aplikasi GPS Tracking Motorcycle.
+
 
 4.	Fitur Sistem
 Sistem aplikasi GPS tracking untuk sepeda motor memiliki beberapa fitur penting yang mencakup :
@@ -231,6 +262,7 @@ Fitur ini memungkinkan aplikasi untuk terhubung dengan perangkat yang terpasang 
 Fitur ini memberikan notifikasi kepada pengguna terkait dengan informasi penting terkait sepeda motor. Notifikasi dapat mencakup peringatan ketika sepeda motor meninggalkan zona yang ditentukan, peringatan kecepatan berlebih, atau informasi lain yang relevan dengan pelacakan dan keamanan sepeda motor.
 
 Dengan kombinasi fitur-fitur ini, pengguna aplikasi GPS tracking sepeda motor dapat memantau lokasi sepeda motor secara real-time, m0elihat riwayat perjalanan, menemukan lokasi yang hilang, terhubung dengan perangkat di sepeda motor, dan menerima notifikasi penting terkait dengan pelacakan dan keamanan sepeda motor.
+
 
 5.	Persyaratan Fungsional Lainnya
 
@@ -289,12 +321,10 @@ Berikut beberapa Software Quality Attributes yang relevan pada aplikasi GPS Trac
 Business rules ini mengatur interaksi dan fungsi aplikasi GPS Tracking Motorcycle dari sudut pandang pengendara dan admin. Dengan demikian, aplikasi dapat memberikan pengalaman yang lebih baik dan memberdayakan pengendara serta memberikan kontrol kepada admin untuk mengelola sistem dengan lebih efisien. Berikut adalah penjelasan mengenai business rules yang telah disebutkan :
 
 1.	Pengendara:
-
 a.	Daftar/Login: Pengendara harus mendaftar dan membuat akun atau masuk ke dalam akun yang ada sebelum dapat menggunakan fitur-fitur website.
 b.	Memasukkan Data Kendaraan: Setelah pengendara berhasil masuk, mereka harus memasukkan data kendaraan mereka, seperti nomor plat, merek, tipe, dan informasi lainnya yang relevan.
 c.	Melihat Lokasi Kendaraan: Pengendara dapat melihat lokasi real-time dari kendaraan mereka melalui website GPS tracking motorcycle. Ini memungkinkan mereka untuk mengetahui di mana kendaraan mereka berada saat ini.
 d.	Melihat Riwayat Perjalanan: Pengendara dapat melihat riwayat perjalanan kendaraan mereka. Informasi yang tersedia dalam riwayat perjalanan meliputi waktu yang diambil, jarak yang ditempuh, dan rute yang diambil selama perjalanan.
-
 2.	Admin:
 a.	Mengelola Akun: Admin bertanggung jawab untuk mengelola akun pengguna, termasuk pembuatan akun baru, penghapusan akun, atau pembaruan informasi pengguna.
 b.	Menetapkan Pemberitahuan/Notifikasi : Admin dapat menetapkan pemberitahuan atau notifikasi tertentu kepada pengendara. Misalnya, admin dapat mengirimkan pemberitahuan jika ada pemeliharaan rutin yang harus dilakukan pada kendaraan atau pemberitahuan penting lainnya.
