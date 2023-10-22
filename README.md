@@ -330,3 +330,24 @@ a.	Mengelola Akun: Admin bertanggung jawab untuk mengelola akun pengguna, termas
 b.	Menetapkan Pemberitahuan/Notifikasi : Admin dapat menetapkan pemberitahuan atau notifikasi tertentu kepada pengendara. Misalnya, admin dapat mengirimkan pemberitahuan jika ada pemeliharaan rutin yang harus dilakukan pada kendaraan atau pemberitahuan penting lainnya.
 c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan. Ini melibatkan penyimpanan informasi perjalanan, seperti waktu, jarak, dan rute, untuk tujuan dokumentasi atau analisis lebih lanjut.
 
+6. Persyaratan
+   Lampiran A: Glosarium
+
+   ![WhatsApp Image 2023-10-22 at 17 57 37_1ba8912a](https://github.com/putripuspita240/gps-tracking/assets/124540466/f7c4a4d3-20f3-4979-ac78-237bd651017f)
+
+   Lampiran B: Model Analisis
+   A. DFD (Data Flow Diagram)
+   
+   ![WhatsApp Image 2023-10-22 at 17 58 00_a4d5818a](https://github.com/putripuspita240/gps-tracking/assets/124540466/312c2159-0498-4bc3-aab7-6a4aade826fa)
+
+   E. Flowchart Login
+   
+   ![WhatsApp Image 2023-10-22 at 17 59 07_576ed473](https://github.com/putripuspita240/gps-tracking/assets/124540466/8e6ad3e7-dfdc-4e89-9905-db20050af5cc)
+
+   F. Use Case Diagram
+   
+   ![Use Case GPS Tracking (1)](https://github.com/putripuspita240/gps-tracking/assets/124540466/4bd4df04-d0e6-42ee-9e9b-1074df3f7faf)
+
+   Lampiran C: Daftar Fitur Yang Akan Ditentukan
+   
+
