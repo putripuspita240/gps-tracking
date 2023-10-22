@@ -9,39 +9,40 @@ D4 Manajemen Informatika
 Fakultas Vokasi Universitas Negeri Surabaya
 2023
 
+
 Daftar Isi
-1.	Pengantar
-1.1	Tujuan
-1.2	Konvensi Dokumen
-1.3	Audiens Yang Dituju
-1.4	Lingkup Produk
-1.5	Referensi
-2.	Deskripsi Keseluruhan
-2.1	Perspektif Produk
-2.2	Fungsi Produk
-2.3	Kelas dan Karakteristik Pengguna
-2.4	Lingkungan Pengembangan
-2.5	Kendala Desain dan Implementasi
-2.6	Dokumentasi Pengguna
-2.7	Asumsi dan Dependensi
-3.	Persyaratan Antarmuka
-3.1	Antarmuka Pengguna
-3.2	Antarmuka Perangkat Keras
-3.3	Antarmuka Perangkat Lunak
-3.4	Antarmuka Komunikasi
-4.	Fitur Sistem
-4.1	Lokasi secara Real-Time
-4.2	Riwayat Lokasi
-4.3	Temukan Lokasi
-4.4	Terhuung dengan Sepeda motor
-4.5	Notifikasi
-5.	Persyaratan Fungsional Lainnya
-5.1	Persyaratan Performa
-5.2	Persyaratan Keamanan Pengguna
-5.3	Persyaratan Keamanan GPS Tracking Motorcycle
-5.4	Atribut Kualitas Perangkat Lunak
-5.5	Proses Bisnis
-5.6	Persyaratan
+1.	Pengantar	1
+1.1	Tujuan	1
+1.2	Konvensi Dokumen	1
+1.3	Audiens Yang Dituju	2
+1.4	Lingkup Produk	2
+1.5	Referensi	3
+2.	Deskripsi Keseluruhan	4
+2.1	Perspektif Produk	4
+2.2	Fungsi Produk	4
+2.3	Kelas dan Karakteristik Pengguna	5
+2.4	Lingkungan Pengembangan	7
+2.5	Kendala Desain dan Implementasi	7
+2.6	Dokumentasi Pengguna	8
+2.7	Asumsi dan Dependensi	10
+3.	Persyaratan Antarmuka	11
+3.1	Antarmuka Pengguna	11
+3.2	Antarmuka Perangkat Keras	15
+3.3	Antarmuka Perangkat Lunak	15
+3.4	Antarmuka Komunikasi	15
+4.	Fitur Sistem	16
+4.1	Lokasi secara Real-Time	16
+4.2	Riwayat Lokasi	16
+4.3	Temukan Lokasi	16
+4.4	Terhuung dengan Sepeda motor	16
+4.5	Notifikasi	16
+5.	Persyaratan Fungsional Lainnya	17
+5.1	Persyaratan Performa	17
+5.2	Persyaratan Keamanan Pengguna	17
+5.3	Persyaratan Keamanan GPS Tracking Motorcycle	18
+5.4	Atribut Kualitas Perangkat Lunak	18
+5.5	Proses Bisnis	20
+6.	Persyaratan	21
 
 
 1.	Pengantar
@@ -349,5 +350,16 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    ![Use Case GPS Tracking (1)](https://github.com/putripuspita240/gps-tracking/assets/124540466/4bd4df04-d0e6-42ee-9e9b-1074df3f7faf)
 
    Lampiran C: Daftar Fitur Yang Akan Ditentukan
+   
+   Nomor Persyaratan	Nama Persyaratan	Halaman
+   REQ-1	   Lingkup Produk	             2 - 3
+   REQ 2	   Fungsi Product	             4 - 5
+   REQ-3	   Antarmuka Pengguna	      11 - 14
+   REQ-4	   Fitur Sistem	              16
+   REQ-5	   Proses Bisnis	              20
+   REQ-6	   Diagram Usecase	           24
+
+
+
    
 
