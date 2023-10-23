@@ -362,7 +362,9 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
 7. Penjelasan Codingan
 7.1 Index.html
     Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
+   
     <img width="674" alt="1-10" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/bd9e1a26-09dd-4b62-8936-7c146eeb647d">
+    
    - `<!doctype html>`, memberitahu browser bahwa dokumen ini adalah dokumen HTML5.
    - `<html>` membuka dan menutup elemen HTML, dengan atribut `lang` yang menetapkan bahasa dokumen, dalam hal ini, bahasa Inggris (`en`).
    - `<meta charset="utf-8">`: Menetapkan karakter encoding dokumen ke UTF-8, yang mendukung berbagai karakter dari banyak bahasa.
@@ -377,6 +379,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    ditutup tanpa konten di dalamnya.
 
    <img width="675" alt="12-34" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/6e5e800d-836b-45ec-8038-b5ebf60fd7f3">
+   
    - `navbar` menunjukkan bahwa ini adalah elemen navbar Bootstrap.
    - `navbar-expand-lg` mengindikasikan bahwa navbar akan diperluas (expanded) pada perangkat dengan lebar layar yang besar (`lg`). `bg-body-tertiary` menetapkan warna
    latar
@@ -392,6 +395,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    - `</nav>` adalah penutup untuk elemen navbar.
 
    <img width="675" alt="36-56" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/e239c2c6-0b53-4543-bd57-b5e2675a57cd">
+   
    - "carouselExampleCaptions" digunakan untuk mengidentifikasi elemen ini dan mengaitkannya dengan tombol navigasi.
    setiap tombol mempunyai atribut `data-bs-target` yang menunjukkan ID carousel dan `data-bs-slide-to` yang menunjukkan nomor slide yang sesuai.
    - `carousel-inner` adalah tempat di mana slide-slide carousel ditempatkan.
@@ -401,6 +405,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    - `</div>` adalah penutup dari elemen carousel.
 
    <img width="673" alt="57-75" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/1a6ff553-ef0d-4822-9662-73b61fcabebd">
+   
    - slide tambahan dalam carousel. Slide ini memiliki gambar motor (`<img>`) dan elemen `<div class="carousel-caption">` yang berisi judul dan deskripsi.
    - `carousel-control-prev` adalah tombol navigasi untuk slide sebelumnya.
    - `data-bs-slide="prev"` mengindikasikan bahwa tombol ini akan menggulir ke slide sebelumnya.
@@ -409,6 +414,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    - `<!-- End Carousel -->` adalah penutup dari elemen carousel. Dengan adanya kode ini, elemen carousel selesai.
 
    <img width="664" alt="77-101" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/4a17ac5a-98db-4636-a2ef-48d5d56caed1">
+   
    - div utama dengan kelas `container`, yang memberikan padding dan mengontrol lebar elemen-elemen di dalamnya.
    - `text-center` mengatur teks dan konten di dalamnya ke tengah halaman
    - `mb-5` memberikan margin atas dan bawah sejauh 5 satuan (dalam Bootstrap, ini biasanya setara dengan 5 * 1.25 rem).
@@ -422,6 +428,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    mendeskripsikan layanan ("GPS Tracking Motorcycle").
 
    <img width="666" alt="103-124" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/ea08e640-0f27-4e14-8226-8eec02170d73">
+   
    - `container` yang memberikan padding dan mengontrol lebar elemen-elemen di dalamnya.
    - `mt-4` memberikan margin atas sejauh 4 satuan.
    - kolom pertama dengan lebar medium (`col-md-5`), yang mendapatkan setengah dari lebar total pada perangkat dengan ukuran medium (dan lebih besar).
@@ -432,6 +439,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    tab pertama (`Pelacakan Real Time`) memiliki kelas `active` untuk menunjukkan bahwa itu adalah tab aktif secara default.
 
    <img width="676" alt="126-147" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/0a0ff4f5-ae73-4627-8dd6-db58218e0e41">
+   
    - div dengan kelas `tab-content` yang menampung konten dari setiap tab. `mt-5` memberikan margin atas sejauh 5 satuan.
    - tab pertama dengan ID `tab1`. Kelas `tab-pane` memberi tahu Bootstrap bahwa ini adalah konten dari tab. Kelas `fade` memberi efek fade saat tab diubah.
    - tab ini memiliki judul (`<h3>`) "Pelacakan Lokasi Real Time" dan deskripsi (`<p>`) yang menjelaskan tentang pelacakan lokasi real-time menggunakan sistem GPS tracking.
@@ -441,6 +449,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    - `<!-- End Main --> ` adalah penutup dari elemen-elemen tab content dan kontainer utama.
 
    <img width="674" alt="149-166" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/5e0d0b66-e8bf-40ff-9dae-94f7691ee059">
+   
    - elemen footer yang diberi kelas Bootstrap untuk mengatur teks ke tengah (`text-center`), memberi warna latar belakang `bg-light`, dan memberi warna teks `text-muted`.
    di dalamnya terdapat teks copyright dan tautan ke halaman "Kelompok 9".
    - `</body>` dan `</html>` adalah penutup tag `body` dan tag `html`.
