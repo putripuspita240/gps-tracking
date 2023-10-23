@@ -127,7 +127,7 @@ Produk GPS tracking untuk sepeda motor memiliki berbagai fungsi yang berguna dal
 
 1.	Pelacakan Lokasi: Fungsi utama GPS tracking untuk sepeda motor adalah melacak lokasi kendaraan secara real-time. Pemilik sepeda motor dapat melihat posisi tepat sepeda motor mereka melalui aplikasi atau platform yang terhubung dengan GPS tracker. Hal ini membantu dalam mengetahui lokasi sepeda motor jika terjadi pencurian atau untuk memantau perjalanan.
 2.	Pencegahan Pencurian: Dengan GPS tracking, sepeda motor dapat dilacak dengan mudah jika terjadi pencurian. Pemilik dapat mengaktifkan fitur alarm atau notifikasi yang akan memberi tahu mereka jika sepeda motor bergerak tanpa izin atau meninggalkan wilayah yang ditentukan. Ini membantu dalam pencegahan pencurian dan memungkinkan pemilik untuk mengambil tindakan segera.
-3.	Geofencing: Fungsi geofencing memungkinkan pemilik untuk membuat batas virtual di sekitar area tertentu. Jika sepeda motor keluar atau memasuki batas ini, pemilik akan menerima pemberitahuan instan. Fitur ini berguna untuk membatasi wilayah perjalanan sepeda motor atau mengawasi sepeda motor yang dipinjam oleh orang lain.\
+3.	Geofencing: Fungsi geofencing memungkinkan pemilik untuk membuat batas virtual di sekitar area tertentu. Jika sepeda motor keluar atau memasuki batas ini, pemilik akan menerima pemberitahuan instan. Fitur ini berguna untuk membatasi wilayah perjalanan sepeda motor atau mengawasi sepeda motor yang dipinjam oleh orang lain.
 4.	Riwayat Perjalanan: GPS tracking juga dapat menyimpan riwayat perjalanan sepeda motor. Informasi ini meliputi waktu perjalanan, jarak yang ditempuh, dan rute yang diambil. Pemilik sepeda motor dapat menggunakan data ini untuk memantau aktivitas sepeda motor, melacak penggunaan bahan bakar, atau melakukan analisis perjalanan.
 5.	Pemantauan Kinerja: Beberapa GPS tracking untuk sepeda motor menyediakan informasi tentang kecepatan, konsumsi bahan bakar, dan parameter lainnya. Fungsi ini membantu pemilik untuk memantau kinerja sepeda motor, mengidentifikasi kebiasaan berkendara yang buruk, atau mendeteksi masalah teknis.
 6.	Notifikasi Darurat: Beberapa GPS tracker dilengkapi dengan tombol darurat yang memungkinkan pengguna untuk mengirimkan sinyal darurat ke kontak yang ditentukan. Fitur ini sangat berguna dalam situasi darurat atau keadaan mendesak di jalan.
@@ -464,6 +464,121 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - kelima, script.js adalah file JavaScript lokal Anda sendiri (mungkin berisi skrip kustom yang Anda buat).
    
 7.2 Tentang.html
+
+   <img width="671" alt="1-10 (2)" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/fc8dc198-748d-4de7-868b-f827bf709ba1">
+   
+   - deklarasi tipe dokumen (document type declaration) yang menunjukkan bahwa halaman ini menggunakan standar HTML5.
+   - `<html>` adalah elemen root dari halaman web. `lang="en"` menandakan bahwa konten halaman ditulis dalam bahasa Inggris (English).
+   - `<meta charset="utf-8">`: Menentukan set karakter yang digunakan dalam halaman web (UTF-8 adalah standar karakter Unicode yang luas digunakan).
+   - `<meta name="viewport" content="width=device-width, initial-scale=1">`: Mendefinisikan tata letak responsif untuk perangkat berbasis web, memastikan halaman terlihat
+      dengan baik pada berbagai perangkat dan ukuran layar.
+   - `<title>GPS Tracking Motorcycle</title>`: Menetapkan judul halaman web yang akan ditampilkan di bar judul browser.
+   - `<link href="..." rel="stylesheet">`: Menghubungkan halaman web dengan file CSS eksternal dari Bootstrap CDN (Content Delivery Network) untuk mengatur tata letak dan
+      gaya halaman.
+      - `<link rel="stylesheet" href="tentang.css">`: Menghubungkan halaman web dengan file CSS lokal (`tentang.css`) untuk memasukkan gaya tambahan khusus untuk halaman
+      ini.
+   - `<body>` adalah tempat konten aktual dari halaman web ditempatkan, seperti teks, gambar, formulir, dan elemen-elemen lainnya.
+
+   <img width="677" alt="12-34 (2)" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/54de2aca-7f6d-4b37-961a-0a34d1317b77">
+   
+   - `<nav>` yang menunjukkan bahwa ini adalah bagian dari halaman web yang berisi navigasi.
+   - `navbar`: Memberi tahu Bootstrap untuk merender elemen ini sebagai bagian dari navbar.
+   - `navbar-expand-lg`: Menandakan bahwa navbar akan berkembang (expand) pada perangkat dengan lebar layar besar (large), yaitu lebih dari 992 piksel.
+   - `bg-body-tertiary`: Memberi warna latar belakang navbar dengan kelas Bootstrap yang khusus.
+   - `<div class="container-fluid">`: Ini adalah div dengan kelas `container-fluid` yang memberi ruang pada navbar untuk isi konten dengan lebar penuh di dalamnya
+   - `<a class="navbar-brand" href="#">`: Ini adalah elemen tautan yang diberi kelas
+   - `navbar-brand` Bootstrap, digunakan untuk menampilkan logo dan judul situs di navbar.
+     ini adalah elemen tombol (button) yang bertindak sebagai tombol toggle (buka/tutup) untuk menu navigasi saat lebar layar kurang dari 992 piksel. Ketika tombol ini
+     ditekan, menu navigasi akan muncul atau tersembunyi.
+   - `<div class="collapse navbar-collapse" id="navbarNavDropdown">`: Ini adalah div yang berisi menu navigasi. Ketika tombol toggle ditekan, elemen-elemen di dalamny
+     akan muncul.
+   - `<ul class="navbar-nav">`: Ini adalah elemen daftar (unordered list) dengan kelas `navbar-nav` yang menampung item-menu navigasi.
+   - `<li class="nav-item">`: Ini adalah elemen daftar (list item) dengan kelas `nav-item` yang menandakan setiap item dalam menu navigasi.
+   - `<a class="nav-link" href="index.html">Home</a>` dan `<a class="nav-link active" aria-current="page" href="tentang.html">Tentang Kami</a>` adalah tautan menu
+     navigasi. Tautan dengan kelas `nav-link` akan membuka halaman terkait ketika diklik. Kelas `active` menunjukkan halaman saat ini atau halaman yang sedang aktif.
+
+   <img width="670" alt="36-44" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/dd0032b4-d612-4a15-9096-a62f76549667">
+   
+   - `<header>` yang menandakan bahwa ini adalah bagian kepala (atas) dari halaman web Anda. Biasanya, elemen `<header>` digunakan untuk menyertakan elemen-elemen yang
+     berada di bagian atas halaman, seperti judul utama, deskripsi singkat, dan tautan menu penting.
+   - `<div class="hero">`: Ini adalah elemen div yang diberi kelas "hero" untuk memberi gaya khusus menggunakan CSS. Elemen ini adalah kontainer utama untuk konten hero.
+   - `<h1>Tentang Kami</h1>`: Ini adalah elemen judul level 1 (h1) yang menunjukkan judul utama halaman, yaitu "Tentang Kami".
+   - `<p>Kami adalah solusi GPS untuk motor yang andal.</p>`: Ini adalah elemen paragraf (p) yang berisi deskripsi singkat tentang halaman atau layanan yang ditawarkan.
+   - `<button id="learnMoreBtn"><a href="#info">Pelajari Lebih Lanjut</a></button>`: Ini adalah elemen tombol (button) yang berisi tautan (anchor) menuju bagian lain di
+     halaman web (dalam hal ini, menuju elemen dengan id "info"). Tombol ini memiliki ID "learnMoreBtn", yang mungkin digunakan untuk memanipulasinya dengan JavaScript
+     atau CSS.
+
+   <img width="677" alt="46-58" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/a14ccea1-a65f-4228-9c4c-b2b9da5323ba">
+   
+   - `<section>` yang memiliki kelas "info" dan ID "info". Kelas "info" mungkin digunakan untuk memberikan gaya CSS khusus pada bagian ini, dan ID "info" dapat digunakan
+     sebagai tautan dalam halaman web untuk mengarahkan pengguna ke bagian ini.
+   - `<div class="info-image">`: Ini adalah elemen div yang memiliki kelas "info-image". Di dalamnya, terdapat sebuah gambar sepeda motor dengan sumber gambar
+   - ("asset/img/tracking.png") dan atribut-atribut lainnya.
+   - `<img src="asset/img/tracking.png" width="90%" alt="Motorcycle Image">`: Ini adalah elemen gambar (img) yang menampilkan gambar sepeda motor. Atribut `width="90%"`
+     menunjukkan bahwa gambar akan menempati 90% lebar dari elemen orang tuanya. Atribut `alt` digunakan untuk memberikan teks alternatif ketika gambar tidak dapat
+   - ditampilkan.
+   - `<div class="info-content">`: Ini adalah elemen div yang memiliki kelas "info-content". Di dalamnya, terdapat judul level 1 (h1) dan sebuah paragraf (p).
+   - `<h1>GPS Tracking Motorcycle</h1>`: Ini adalah judul utama bagian dengan teks "GPS Tracking Motorcycle".
+   - `<p>... </p>`: Ini adalah elemen paragraf (p) yang berisi deskripsi singkat tentang layanan GPS Tracking Motorcycle.
+
+   <img width="668" alt="60-70" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/7cde5d32-0771-4291-ab9c-ef3431e96c8f">
+   
+   - `<div class="container">` menandakan bahwa ini adalah sebuah wadah atau kontainer yang mengelilingi konten di dalamnya. Elemen ini sering digunakan dalam desain web
+     untuk mengatur tata letak dan membatasi lebar konten agar sesuai dengan desain halaman.
+   - `<div class="flip-box">` adalah kotak elemen yang dapat di-"flip" atau diputar ke sisi belakang. Elemen ini sering digunakan untuk menampilkan informasi tambahan atau
+     gambar ketika pengguna mengarahkan kursor ke atasnya.
+   - `<div class="flip-box-inner">` adalah elemen yang mengelilingi konten flip box. Ini adalah bagian yang dapat diputar (flip) ke depan dan belakang.
+   - `<div class="flip-box-front">`: Ini adalah elemen yang merupakan bagian depan dari kotak flip. Di dalamnya terdapat gambar rute dengan atribut `class="img-1"` yang
+     mungkin digunakan untuk memberikan gaya tambahan menggunakan CSS.
+   - `<img src="asset/img/route.jpg" class="img-1" alt="Image 1">`: Ini adalah elemen gambar (img) yang menampilkan gambar rute. Atribut `src` menunjukkan lokasi file
+     gambar, `class="img-1"` digunakan untuk gaya tambahan, dan atribut `alt` memberikan teks deskripsi alternatif ketika gambar tidak dapat ditampilkan.\
+   - `<div class="flip-box-back">`: Ini adalah elemen yang merupakan bagian belakang dari kotak flip. Di dalamnya terdapat sebuah paragraf (p) yang berisi teks "Riwayat
+     Rute".
+   - `<p>Riwayat Rute</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Riwayat Rute". Teks ini akan muncul di bagian belakang kotak flip ketika kotak ini di-"flip".
+
+   <img width="667" alt="71-80" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/dffd5ac9-2fcc-4f5e-b1f8-ee2bdde45a5c">
+   
+   - div dengan kelas "flip-box". Elemen ini akan digunakan untuk membuat kotak flip dengan dua sisi, yaitu bagian depan dan belakang yang dapat berubah saat dihover atau
+     di-clicked.
+   - div dengan kelas "flip-box-inner". Elemen ini mengelilingi konten dari kotak flip dan memungkinkan kotak tersebut dapat berputar ke depan dan belakang.
+   - `<div class="flip-box-front">`: Ini adalah elemen yang merupakan bagian depan dari kotak flip. Di dalamnya terdapat gambar pelacakan lokasi real-time dengan atribut
+   - `class="img-1"` yang mungkin digunakan untuk memberikan gaya tambahan menggunakan CSS.
+   - `<img src="asset/img/tracking.jpeg" class="img-1" alt="Image 2">`: Ini adalah elemen gambar (img) yang menampilkan gambar pelacakan lokasi real-time. Atribut `src`
+     menunjukkan lokasi file gambar, `class="img-1"` digunakan untuk gaya tambahan, dan atribut `alt` memberikan teks deskripsi alternatif ketika gambar tidak dapat
+     ditampilkan.
+   - `<div class="flip-box-back">`: Ini adalah elemen yang merupakan bagian belakang dari kotak flip. Di dalamnya terdapat sebuah paragraf (p) dengan kelas "text-center"
+     yang berisi teks "Pelacakan Lokasi Real Time".
+   - `<p class="text-center">Pelacakan Lokasi Real Time</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Pelacakan Lokasi Real Time" dan diberi kelas "text-center"
+     untuk memberikan tata letak teks yang terpusat.
+
+   <img width="670" alt="81-93" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/0ae1d3a7-c595-413a-9260-e92032142241">
+   
+   - `<div>` menandakan akhir dari elemen dengan kelas "container" yang dimulai sebelumnya.
+   - div dengan kelas "flip-box". Elemen ini akan digunakan untuk membuat kotak flip dengan dua sisi, yaitu bagian depan dan belakang yang dapat berubah saat dihover atau
+     di-clicked.
+   - div dengan kelas "flip-box-inner". Elemen ini mengelilingi konten dari kotak flip dan memungkinkan kotak tersebut dapat berputar ke depan dan belakang.
+   - `<div class="flip-box-front">`: Ini adalah elemen yang merupakan bagian depan dari kotak flip. Di dalamnya terdapat gambar pencurian dengan atribut `class="img-1"`
+     yang mungkin digunakan untuk memberikan gaya tambahan menggunakan CSS.
+   - `<img src="asset/img/theft.jpeg" class="img-1" alt="Image 3">`: Ini adalah elemen gambar (img) yang menampilkan gambar pencurian. Atribut `src` menunjukkan lokasi
+     file gambar, `class="img-1"` digunakan untuk gaya tambahan, dan atribut `alt` memberikan teks deskripsi alternatif ketika gambar tidak dapat ditampilkan.
+   - `<div class="flip-box-back">`: Ini adalah elemen yang merupakan bagian belakang dari kotak flip. Di dalamnya terdapat sebuah paragraf (p) yang berisi teks "Temukan
+     Lokasi".
+   - `<p>Temukan Lokasi</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Temukan Lokasi". Teks ini akan muncul di bagian belakang kotak flip ketika kotak ini di
+     hover atau di-click.
+
+   <img width="676" alt="95-112" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/e00a8115-307a-455f-ac66-2966c48b7d0d">
+   
+   - footer yang biasanya digunakan untuk menempatkan informasi pemberitahuan atau hak cipta di bagian bawah halaman web.
+   - `<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">`: Ini adalah elemen div dengan kelas "text-center" dan padding sebesar 4 (p-4). Latar
+     belakang elemen ini diatur dengan properti inline `style`.
+   - `© 2023 Copyright |`: Ini adalah teks statis yang menunjukkan hak cipta tahun 2023.
+   - `<a class="text-reset fw-bold" href="">Kelompok 9</a>`: Ini adalah tautan (link) tanpa warna (text-reset) dan tebal (fw-bold) yang mengarah ke halaman kosong karena
+     atribut `href` tidak diisi.
+   - `<script>` yang memuat pustaka JavaScript eksternal seperti Bootstrap, jQuery, dan Popper.js. Pustaka-pustaka ini digunakan untuk menyediakan fungsionalitas tambahan
+     dalam halaman web, seperti animasi, interaksi pengguna, dan modifikasi tata letak.
+   - `<script>` yang memuat berkas JavaScript lokal dengan nama "script.js". Berkas ini mungkin berisi kode JavaScript kustom yang digunakan untuk logika tambahan atau
+     interaktivitas dalam halaman web.
+   - `<body>` dan `<html>` menandakan akhir dari halaman HTML. Semua elemen dan konten halaman web ditempatkan di antara elemen `<body>` dan `</body>`.
 
 7.3 Index.css
 Kode CSS menggambarkan beberapa gaya dan transisi yang digunakan untuk elemen-elemen HTML dengan kelas .info dan .zoomable. Penjelasan setiap kode sebagai berikut :
