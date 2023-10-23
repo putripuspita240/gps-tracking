@@ -229,57 +229,96 @@ Daftar Isi
    secara bersama-sama untuk mengumpulkan, mentransmisikan, dan menganalisis data lokasi dan informasi terkait sepeda motor. Ini memberikan pemilik atau pengguna
    sepeda motor kemampuan untuk memantau dan  melindungi kendaraan mereka secara efektif.
 
-2.5 Kendala Desain dan Implementasi
-Pengujian GPS Tracking Motorcycle sudah dilakukan dan tidak ada kendala. Semua sistem sudah berjalan sesuai yang diharapkan dan berjalan dengan baik. Desain dan implementasi GPS tracking untuk sepeda motor melibatkan beberapa langkah dan komponen teknis. Berikut adalah langkah-langkah umum yang terlibat dalam desain dan implementasi GPS tracking untuk sepeda motor :
+   2.5 Kendala Desain dan Implementasi
+   
+   Pengujian GPS Tracking Motorcycle sudah dilakukan dan tidak ada kendala. Semua sistem sudah berjalan sesuai yang diharapkan dan berjalan dengan baik. Desain dan
+   implementasi GPS tracking untuk sepeda motor melibatkan beberapa langkah dan komponen teknis. Berikut adalah langkah-langkah umum yang terlibat dalam desain dan
+   implementasi GPS tracking untuk sepeda motor :
 
-1.	Pemilihan GPS Tracker: Langkah pertama adalah memilih GPS tracker yang sesuai untuk sepeda motor. Pilihlah GPS tracker yang ukurannya kecil, tahan air, dan tahan terhadap getaran atau guncangan yang umum terjadi pada sepeda motor. Pastikan GPS tracker yang dipilih kompatibel dengan sistem operasi dan platform yang akan digunakan.
-2.	Pemasangan GPS Tracker: GPS tracker dipasang pada sepeda motor dengan aman dan tersembunyi agar tidak terlihat oleh orang lain. Tempatkan  GPS tracker di lokasi yang aman, seperti di bawah jok, di bawah bodi atau di bagian yang tidak mudah dijangkau. Pastikan GPS tracker terpasang dengan kokoh dan terlindung dari kerusakan atau pencurian.
-3.	Pengaturan Koneksi Data: Jika GPS tracker menggunakan kartu SIM, pastikan untuk memasang dan mengaktifkan kartu SIM yang sesuai dengan jaringan seluler yang mendukung. Lakukan pengaturan koneksi data dan pastikan GPS tracker terhubung dengan jaringan seluler untuk mentransmisikan data.
-4.	Konfigurasi Perangkat: Setelah GPS tracker terpasang, lakukan konfigurasi perangkat sesuai dengan instruksi yang diberikan oleh produsen. Ini melibatkan mengatur pengaturan seperti interval pelacakan, pengiriman notifikasi, dan parameter lainnya yang sesuai dengan kebutuhan pengguna.
-5.	Pembuatan Akun dan Pengaturan Server: Buat akun pengguna di server atau platform yang terkait dengan GPS tracker. Ikuti langkah-langkah pendaftaran yang diberikan dan lakukan pengaturan server yang diperlukan. Tambahkan sepeda motor ke akun pengguna dan ikuti proses registrasi yang mungkin diperlukan.
-6.	Penggunaan Aplikasi atau Platform: Setelah akun dan server dikonfigurasi, unduh aplikasi mobile atau akses platform berbasis web yang terkait dengan GPS tracker. Masuk ke akun pengguna dan ikuti petunjuk untuk menghubungkan sepeda motor yang dilacak. Aplikasi atau platform akan menyediakan tampilan real-time dari posisi sepeda motor, riwayat perjalanan, notifikasi, dan fitur lainnya.
-7.	Uji Coba dan Pemantauan: Setelah GPS tracking sepeda motor diimplementasikan, lakukan uji coba untuk memastikan bahwa sistem berfungsi dengan baik. Periksa pelacakan lokasi, notifikasi, dan fitur lainnya untuk memastikan semua berjalan sesuai yang diharapkan. Lakukan pemantauan secara berkala untuk memastikan bahwa GPS tracking beroperasi dengan lancar dan memberikan informasi yang akurat.
+   1.	Pemilihan GPS Tracker: Langkah pertama adalah memilih GPS tracker yang sesuai untuk sepeda motor. Pilihlah GPS tracker yang ukurannya kecil, tahan air, dan tahan
+      terhadap getaran atau guncangan yang umum terjadi pada sepeda motor. Pastikan GPS tracker yang dipilih kompatibel dengan sistem operasi dan platform yang akan
+     	digunakan.
+   2.	Pemasangan GPS Tracker: GPS tracker dipasang pada sepeda motor dengan aman dan tersembunyi agar tidak terlihat oleh orang lain. Tempatkan  GPS tracker di lokasi yang
+      aman, seperti di bawah jok, di bawah bodi atau di bagian yang tidak mudah dijangkau. Pastikan GPS tracker terpasang dengan kokoh dan terlindung dari kerusakan atau
+     	pencurian.
+   3.	Pengaturan Koneksi Data: Jika GPS tracker menggunakan kartu SIM, pastikan untuk memasang dan mengaktifkan kartu SIM yang sesuai dengan jaringan seluler yang
+      mendukung. Lakukan pengaturan koneksi data dan pastikan GPS tracker terhubung dengan jaringan seluler untuk mentransmisikan data.
+   4.	Konfigurasi Perangkat: Setelah GPS tracker terpasang, lakukan konfigurasi perangkat sesuai dengan instruksi yang diberikan oleh produsen. Ini melibatkan mengatur
+      pengaturan seperti interval pelacakan, pengiriman notifikasi, dan parameter lainnya yang sesuai dengan kebutuhan pengguna.
+   5.	Pembuatan Akun dan Pengaturan Server: Buat akun pengguna di server atau platform yang terkait dengan GPS tracker. Ikuti langkah-langkah pendaftaran yang diberikan
+      dan lakukan pengaturan server yang diperlukan. Tambahkan sepeda motor ke akun pengguna dan ikuti proses registrasi yang mungkin diperlukan.
+   6.	Penggunaan Aplikasi atau Platform: Setelah akun dan server dikonfigurasi, unduh aplikasi mobile atau akses platform berbasis web yang terkait dengan GPS tracker.
+      Masuk ke akun pengguna dan ikuti petunjuk untuk menghubungkan sepeda motor yang dilacak. Aplikasi atau platform akan menyediakan tampilan real-time dari posisi
+     	sepeda motor, riwayat perjalanan, notifikasi, dan fitur lainnya.
+   7.	Uji Coba dan Pemantauan: Setelah GPS tracking sepeda motor diimplementasikan, lakukan uji coba untuk memastikan bahwa sistem berfungsi dengan baik. Periksa pelacakan
+      lokasi, notifikasi, dan fitur lainnya untuk memastikan semua berjalan sesuai yang diharapkan. Lakukan pemantauan secara berkala untuk memastikan bahwa GPS tracking
+     	beroperasi dengan lancar dan memberikan informasi yang akurat.
+   
+   Desain dan implementasi GPS tracking untuk sepeda motor melibatkan pemilihan perangkat yang tepat, pemasangan yang benar, konfigurasi yang akurat, dan penggunaan
+   aplikasi atau platform yang sesuai. Penting untuk mengikuti panduan dari produsen GPS tracker dan platform yang digunakan untuk memastikan keberhasilan implementasi dan
+   penggunaan yang efektif.
 
-Desain dan implementasi GPS tracking untuk sepeda motor melibatkan pemilihan perangkat yang tepat, pemasangan yang benar, konfigurasi yang akurat, dan penggunaan aplikasi atau platform yang sesuai. Penting untuk mengikuti panduan dari produsen GPS tracker dan platform yang digunakan untuk memastikan keberhasilan implementasi dan penggunaan yang efektif.
+   2.6 Dokumentasi Pengguna
 
-2.6 Dokumentasi Pengguna
-Berikut adalah panduan penggunaan GPS tracking untuk sepeda motor 
+   Berikut adalah panduan penggunaan GPS tracking untuk sepeda motor
 
-1.	Instalasi GPS Tracker: Pasang GPS tracker pada sepeda motor sesuai petunjuk yang diberikan oleh produsen. Pastikan GPS tracker terpasang dengan aman dan terlindung dari kerusakan atau pencurian.
-2.	Aktivasi SIM Card (jika diperlukan): Jika GPS tracker menggunakan kartu SIM, pasang kartu SIM yang sesuai dan aktifkan layanan data.
-3.	Unduh Aplikasi atau Akses Platform: Unduh aplikasi mobile yang terkait dengan GPS tracker atau akses platform berbasis web melalui perangkat yang terhubung ke internet.
-4.	Buat Akun Pengguna: Buat akun pengguna di aplikasi atau platform dengan mengikuti petunjuk pendaftaran yang diberikan. Pastikan menggunakan informasi yang akurat dan aman.
-5.	Tambahkan Sepeda Motor: Setelah berhasil masuk ke akun pengguna, tambahkan sepeda motor ke akun Anda dengan mengikuti petunjuk yang disediakan oleh aplikasi atau platform. Ini biasanya melibatkan memasukkan nomor seri atau kode unik dari GPS tracker.
-6.	Pantau Posisi Sepeda Motor: Setelah sepeda motor ditambahkan ke akun Anda, Anda dapat melacak posisi sepeda motor secara real-time melalui aplikasi mobile atau platform berbasis web. Pastikan Anda terhubung ke internet untuk menerima data yang akurat.
-7.	Terima Notifikasi: Aktifkan notifikasi dalam aplikasi atau platform untuk menerima pemberitahuan jika terjadi aktivitas mencurigakan, sepeda motor keluar dari area yang ditentukan, atau situasi darurat lainnya.
-8.	Riwayat Perjalanan: Gunakan fitur riwayat perjalanan untuk melihat catatan perjalanan sepeda motor Anda. Anda dapat melihat waktu perjalanan, jarak yang ditempuh, dan rute yang diambil.
-9.	Pengaturan Tambahan: Beberapa GPS tracker menyediakan pengaturan tambahan seperti geofencing, alarm, atau fitur lainnya. Gunakan pengaturan ini sesuai dengan kebutuhan dan preferensi Anda.
-10.	Pemeliharaan dan Pemantauan: Lakukan pemeliharaan rutin pada GPS tracker, seperti memeriksa daya baterai atau penggantian kartu SIM jika diperlukan. Selalu periksa koneksi dan fungsionalitas GPS tracker secara berkala untuk memastikan operasional yang baik.
+   1.	Instalasi GPS Tracker: Pasang GPS tracker pada sepeda motor sesuai petunjuk yang diberikan oleh produsen. Pastikan GPS tracker terpasang dengan aman dan terlindung
+      dari kerusakan atau pencurian.
+   2.	Aktivasi SIM Card (jika diperlukan): Jika GPS tracker menggunakan kartu SIM, pasang kartu SIM yang sesuai dan aktifkan layanan data.
+   3.	Unduh Aplikasi atau Akses Platform: Unduh aplikasi mobile yang terkait dengan GPS tracker atau akses platform berbasis web melalui perangkat yang terhubung ke
+      internet.
+   4.	Buat Akun Pengguna: Buat akun pengguna di aplikasi atau platform dengan mengikuti petunjuk pendaftaran yang diberikan. Pastikan menggunakan informasi yang akurat dan
+      aman.
+   5.	Tambahkan Sepeda Motor: Setelah berhasil masuk ke akun pengguna, tambahkan sepeda motor ke akun Anda dengan mengikuti petunjuk yang disediakan oleh aplikasi atau
+      platform. Ini biasanya melibatkan memasukkan nomor seri atau kode unik dari GPS tracker.
+   6.	Pantau Posisi Sepeda Motor: Setelah sepeda motor ditambahkan ke akun Anda, Anda dapat melacak posisi sepeda motor secara real-time melalui aplikasi mobile atau
+      platform berbasis web. Pastikan Anda terhubung ke internet untuk menerima data yang akurat.
+   7.	Terima Notifikasi: Aktifkan notifikasi dalam aplikasi atau platform untuk menerima pemberitahuan jika terjadi aktivitas mencurigakan, sepeda motor keluar dari area
+      yang ditentukan, atau situasi darurat lainnya.
+   8.	Riwayat Perjalanan: Gunakan fitur riwayat perjalanan untuk melihat catatan perjalanan sepeda motor Anda. Anda dapat melihat waktu perjalanan, jarak yang ditempuh,
+      dan rute yang diambil.
+   9. Pengaturan Tambahan: Beberapa GPS tracker menyediakan pengaturan tambahan seperti geofencing, alarm, atau fitur lainnya. Gunakan pengaturan ini sesuai dengan
+       kebutuhan dan preferensi Anda.
+   10. Pemeliharaan dan Pemantauan: Lakukan pemeliharaan rutin pada GPS tracker, seperti memeriksa daya baterai atau penggantian kartu SIM jika diperlukan. Selalu periksa
+       koneksi dan fungsionalitas GPS tracker secara berkala untuk memastikan operasional yang baik.
 
-Pastikan untuk merujuk pada panduan pengguna yang disediakan oleh produsen GPS tracker dan aplikasi atau platform yang digunakan. Panduan ini akan memberikan informasi lebih detail tentang fungsi dan fitur spesifik dari perangkat Anda.
+   Pastikan untuk merujuk pada panduan pengguna yang disediakan oleh produsen GPS tracker dan aplikasi atau platform yang digunakan. Panduan ini akan memberikan informasi
+   lebih detail tentang fungsi dan fitur spesifik dari perangkat Anda.
 
-2.7 Asumsi dan Dependensi
-Asumsi dan ketergantungan GPS tracking untuk sepeda motor melibatkan beberapa faktor yang perlu dipertimbangkan. Berikut adalah beberapa asumsi umum dan ketergantungan yang terkait dengan GPS tracking untuk sepeda motor :
+   2.7 Asumsi dan Dependensi
+   Asumsi dan ketergantungan GPS tracking untuk sepeda motor melibatkan beberapa faktor yang perlu dipertimbangkan. Berikut adalah beberapa asumsi umum dan ketergantungan
+   yang terkait dengan GPS tracking untuk sepeda motor :
 
-1.	Sinyal GPS: GPS tracking bergantung pada ketersediaan sinyal GPS yang kuat dan stabil. Asumsinya adalah bahwa sepeda motor berada dalam area yang dapat menerima sinyal GPS dengan baik, seperti di luar ruangan atau daerah terbuka. Jika sepeda motor berada di area yang memiliki gangguan sinyal GPS, seperti di dalam gedung atau daerah dengan perlindungan sinyal, akurasi pelacakan mungkin terpengaruh.
-2.	Ketersediaan Jaringan Seluler: Jika GPS tracker menggunakan kartu SIM dan mengirim data melalui jaringan seluler, asumsinya adalah bahwa ada ketersediaan jaringan seluler yang stabil dan cakupan yang memadai di lokasi sepeda motor. Jika sepeda motor berada di daerah dengan sinyal seluler yang lemah atau tidak ada sinyal sama sekali, GPS tracker mungkin tidak dapat mengirim data secara real-time.
-3.	Daya Baterai: GPS tracker membutuhkan daya baterai untuk beroperasi. Asumsinya adalah bahwa daya baterai GPS tracker cukup untuk mempertahankan operasional dalam rentang waktu yang diinginkan. Namun, ketergantungan pada daya baterai berarti bahwa pengguna harus memastikan bahwa baterai GPS tracker terisi penuh atau diisi ulang secara teratur.
-4.	Ketersediaan Akses Internet: Untuk mengakses data GPS tracker melalui aplikasi mobile atau platform berbasis web, pengguna perlu memiliki akses internet yang stabil. Asumsinya adalah bahwa pengguna memiliki akses internet yang memadai dan stabil untuk mengakses informasi dan mengontrol GPS tracker.
-5.	Keandalan Perangkat: Ketergantungan pada GPS tracking sepeda motor juga bergantung pada keandalan perangkat itu sendiri. Asumsinya adalah bahwa GPS tracker berfungsi dengan baik dan tidak mengalami kerusakan atau kegagalan yang signifikan. Penting untuk memilih GPS tracker berkualitas tinggi dan menjaga perangkat dalam kondisi yang baik.
-6.	Kepatuhan dan Perlindungan Data: GPS tracking melibatkan pengumpulan dan pengiriman data pengguna dan lokasi sepeda motor. Asumsinya adalah bahwa pengguna mematuhi kebijakan privasi dan perlindungan data yang diberlakukan oleh produsen GPS tracker atau platform yang digunakan. Penting untuk memahami bagaimana data dikumpulkan, digunakan, dan dilindungi untuk menjaga privasi dan keamanan informasi
+   1.	Sinyal GPS: GPS tracking bergantung pada ketersediaan sinyal GPS yang kuat dan stabil. Asumsinya adalah bahwa sepeda motor berada dalam area yang dapat menerima
+   2.	sinyal GPS dengan baik, seperti di luar ruangan atau daerah terbuka. Jika sepeda motor berada di area yang memiliki gangguan sinyal GPS, seperti di dalam gedung atau
+      daerah dengan perlindungan sinyal, akurasi pelacakan mungkin terpengaruh.
+   2.	Ketersediaan Jaringan Seluler: Jika GPS tracker menggunakan kartu SIM dan mengirim data melalui jaringan seluler, asumsinya adalah bahwa ada ketersediaan jaringan
+      seluler yang stabil dan cakupan yang memadai di lokasi sepeda motor. Jika sepeda motor berada di daerah dengan sinyal seluler yang lemah atau tidak ada sinyal sama
+     	sekali, GPS tracker mungkin tidak dapat mengirim data secara real-time.
+   3.	Daya Baterai: GPS tracker membutuhkan daya baterai untuk beroperasi. Asumsinya adalah bahwa daya baterai GPS tracker cukup untuk mempertahankan operasional dalam
+      rentang waktu yang diinginkan. Namun, ketergantungan pada daya baterai berarti bahwa pengguna harus memastikan bahwa baterai GPS tracker terisi penuh atau diisi
+     	ulang secara teratur.
+   4.	Ketersediaan Akses Internet: Untuk mengakses data GPS tracker melalui aplikasi mobile atau platform berbasis web, pengguna perlu memiliki akses internet yang stabil.
+      Asumsinya adalah bahwa pengguna memiliki akses internet yang memadai dan stabil untuk mengakses informasi dan mengontrol GPS tracker.
+   5.	Keandalan Perangkat: Ketergantungan pada GPS tracking sepeda motor juga bergantung pada keandalan perangkat itu sendiri. Asumsinya adalah bahwa GPS tracker berfungsi
+      dengan baik dan tidak mengalami kerusakan atau kegagalan yang signifikan. Penting untuk memilih GPS tracker berkualitas tinggi dan menjaga perangkat dalam kondisi
+     	yang baik.
+   6.	Kepatuhan dan Perlindungan Data: GPS tracking melibatkan pengumpulan dan pengiriman data pengguna dan lokasi sepeda motor. Asumsinya adalah bahwa pengguna mematuhi
+      kebijakan privasi dan perlindungan data yang diberlakukan oleh produsen GPS tracker atau platform yang digunakan. Penting untuk memahami bagaimana data dikumpulkan,
+     	digunakan, dan dilindungi untuk menjaga privasi dan keamanan informasi
 
-Asumsi dan ketergantungan ini harus dipertimbangkan ketika menggunakan GPS tracking untuk sepeda motor. Penting untuk memahami batasan dan memastikan bahwa kondisi dan faktor-faktor tersebut terpenuhi untuk memperoleh hasil  yang akurat dan efektif dari GPS tracking.
+   Asumsi dan ketergantungan ini harus dipertimbangkan ketika menggunakan GPS tracking untuk sepeda motor. Penting untuk memahami batasan dan memastikan bahwa kondisi dan
+   faktor-faktor tersebut terpenuhi untuk memperoleh hasil  yang akurat dan efektif dari GPS tracking.
 
+   3. Persyaratan Antarmuka
+   3.1 Antarmuka Pengguna
+   Berikut adalah deskripsi tentang tentang aplikasi GPS Tracking Motorcycle :Didalam tampilan pertama saat membuka aplikasi GPS Tracking Motorcycle, user diminta untuk
+   login jika sudah mempunyai akun dan sign up (daftar) jika belum mempunyai akun. Setelah mendaftar atau login, user akan dialihkan ke halaman utama aplikasi. Didalam
+   halaman utama ini terdapat tampilan nama user, setting, dan berbagai menu seperti real-time location, find location, connect to motorcycle, history location dan
+   notification
 
-
-3. Persyaratan Antarmuka
-
-3.1 Antarmuka Pengguna
-Berikut adalah deskripsi tentang tentang aplikasi GPS Tracking Motorcycle : 
-
-Didalam tampilan pertama saat membuka aplikasi GPS Tracking Motorcycle, user diminta untuk login jika sudah mempunyai akun dan sign up (daftar) jika belum mempunyai akun. Setelah mendaftar atau login, user akan dialihkan ke halaman utama aplikasi. Didalam halaman utama ini terdapat tampilan nama user, setting, dan berbagai menu seperti real-time location, find location, connect to motorcycle, history location dan notification.
-
-Didalam menu settings terdapat fitur untuk mengganti nama, email, nama brand sepeda motor, password, plat nomor sepeda motor, dan nomor telepon. Didalam menu setting juga user bisa memilih mode pelacakan yang akan digunakan seperti :
+Didalam menu settings terdapat fitur untuk mengganti nama, email, nama brand sepeda motor, password, plat nomor sepeda motor, dan nomor telepon. Didalam
+menu setting juga user bisa memilih mode pelacakan yang akan digunakan seperti :
 a.	Mode real-time yang memungkinkan pengguna untuk melihat lokasi sepeda motor secara langsung dan akurat.
 b.	Mode interval yang akan memperbarui lokasi pada interval waktu tertentu seperti setiap 1 menit, 5 menit, atau 15 menit. Mode ini berguna untuk menghematdaya baterai pada perangkat dan mengurangi penggunaan data.
 c.	Mode geofencing yang akan memperbarui lokasi ketika memasuki atau meninggalkan wilayah tertentu.
