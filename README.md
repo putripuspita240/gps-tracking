@@ -359,7 +359,36 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    REQ-5	   Proses Bisnis	              20
    REQ-6	   Diagram Usecase	           24
 
+7. Penjelasan Codingan
+7.1 Index.html
+7.2 Tentang.html
+7.3 Index.css
+    Kode CSS menggambarkan beberapa gaya dan transisi yang digunakan untuk elemen-elemen HTML dengan kelas .info dan .zoomable. Penjelasan setiap kode sebagai berikut :
+   
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/17506473-6089-4929-a170-c2bfeae6aff7)
+*.info merupakan deklarasi gaya untuk elemen HTML dengan kelas .info. Kode ini akan mengatur tampilan elemen-elemen tersebut.
+-	padding: 20px;: Ini memberikan elemen .info padding sebesar 20 piksel dari semua sisi (atas, kanan, bawah, kiri).
+-	margin-right: 20px;: Memberikan elemen .info margin sebesar 20 piksel hanya pada sisi sebelah kanan.
+-	border-radius: 20px;: Menghasilkan sudut lengkung pada elemen dengan radius sudut sebesar 20 piksel, memberikan tampilan bulat di sudut-sudutnya.
+-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;: Memberikan bayangan kepada elemen dengan warna dan parameter tertentu. Warna bayangan adalah rgba(100, 100, 111, 0.2), yang merupakan warna abu-abu dengan tingkat transparansi. Angka-angka lainnya mengatur jarak bayangan dari elemen (0px pada sumbu x dan 7px pada sumbu y), besar bayangan (29px), dan tidak ada bayangan pada sisi kiri (0px).
+  
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/9e48cc3f-3d67-42d7-b8e1-499c0d863098)
+*.info:hover merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .info saat mouse mengarah ke elemen tersebut (dalam keadaan hover).
+-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;: Ini mengubah bayangan elemen saat dihover menjadi warna hitam dengan tingkat transparansi yang lebih rendah. Parameter lainnya tetap sama seperti dalam deklarasi .info.
+-	transition: 500ms;: Ini menambahkan efek transisi dengan durasi 500 milidetik. Ini berarti perubahan dari bayangan asli ke bayangan saat dihover akan berlangsung selama 0,5 detik, memberikan efek perubahan yang halus.
+  
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/20258cb8-2b0e-4096-a084-17555873c19f)
+ *.zoomable merupakan deklarasi gaya untuk elemen HTML dengan kelas .zoomable. Gaya ini mengaktifkan efek zoom saat elemen diberi klik.
+-	cursor: pointer;: Mengubah kursor mouse menjadi tanda panah saat berada di atas elemen .zoomable, menunjukkan bahwa elemen dapat diklik.
+-	transition: transform 0.3s;: Ini menambahkan efek transisi ke properti transform dengan durasi 0,3 detik. Ini memungkinkan elemen untuk berubah secara halus ketika properti transform diubah.
 
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/8fdebbb6-bd33-4dfa-a794-d57a53879fa9)
+*.zoomable.zoomed merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .zoomable ketika memiliki kelas tambahan .zoomed.
+-	transform: scale(2);: Ini mengubah skala elemen sehingga menjadi dua kali lebih besar dari ukuran aslinya. Ini memberikan efek zoom pada elemen saat memiliki kelas .zoomed. Anda dapat mengganti nilai "2" sesuai dengan faktor perbesaran yang diinginkan.
+Semua kode CSS di atas digunakan untuk memperindah tampilan elemen HTML dengan kelas .info dan memberikan efek zoom pada elemen dengan kelas .zoomable saat mereka diberi klik atau kelas tambahan .zoomed.
+
+7.4 Tentang.css
+7.5 Script.js
 
    
 
