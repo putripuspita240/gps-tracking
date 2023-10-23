@@ -364,9 +364,9 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
 
 ## 7. Penjelasan Codingan
 7.1 Index.html
-    Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
+Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    
-    <img width="674" alt="1-10" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/bd9e1a26-09dd-4b62-8936-7c146eeb647d">
+   <img width="674" alt="1-10" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/bd9e1a26-09dd-4b62-8936-7c146eeb647d">
     
    - `<!doctype html>`, memberitahu browser bahwa dokumen ini adalah dokumen HTML5.
    - `<html>` membuka dan menutup elemen HTML, dengan atribut `lang` yang menetapkan bahasa dokumen, dalam hal ini, bahasa Inggris (`en`).
@@ -466,128 +466,154 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
 7.2 Tentang.html
 
 7.3 Index.css
-    Kode CSS menggambarkan beberapa gaya dan transisi yang digunakan untuk elemen-elemen HTML dengan kelas .info dan .zoomable. Penjelasan setiap kode sebagai berikut :
+Kode CSS menggambarkan beberapa gaya dan transisi yang digunakan untuk elemen-elemen HTML dengan kelas .info dan .zoomable. Penjelasan setiap kode sebagai berikut :
    
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/17506473-6089-4929-a170-c2bfeae6aff7)
-*.info merupakan deklarasi gaya untuk elemen HTML dengan kelas .info. Kode ini akan mengatur tampilan elemen-elemen tersebut.
--	padding: 20px;: Ini memberikan elemen .info padding sebesar 20 piksel dari semua sisi (atas, kanan, bawah, kiri).
--	margin-right: 20px;: Memberikan elemen .info margin sebesar 20 piksel hanya pada sisi sebelah kanan.
--	border-radius: 20px;: Menghasilkan sudut lengkung pada elemen dengan radius sudut sebesar 20 piksel, memberikan tampilan bulat di sudut-sudutnya.
--	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;: Memberikan bayangan kepada elemen dengan warna dan parameter tertentu. Warna bayangan adalah rgba(100, 100, 111, 0.2), yang merupakan warna abu-abu dengan tingkat transparansi. Angka-angka lainnya mengatur jarak bayangan dari elemen (0px pada sumbu x dan 7px pada sumbu y), besar bayangan (29px), dan tidak ada bayangan pada sisi kiri (0px).
+   
+   *.info merupakan deklarasi gaya untuk elemen HTML dengan kelas .info. Kode ini akan mengatur tampilan elemen-elemen tersebut.
+   - padding: 20px;: Ini memberikan elemen .info padding sebesar 20 piksel dari semua sisi (atas, kanan, bawah, kiri).
+   - margin-right: 20px;: Memberikan elemen .info margin sebesar 20 piksel hanya pada sisi sebelah kanan.
+   - border-radius: 20px;: Menghasilkan sudut lengkung pada elemen dengan radius sudut sebesar 20 piksel, memberikan tampilan bulat di sudut-sudutnya.
+   - box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;: Memberikan bayangan kepada elemen dengan warna dan parameter tertentu. Warna bayangan adalah rgba(100, 100,
+     111, 0.2), yang merupakan warna abu-abu dengan tingkat transparansi. Angka-angka lainnya mengatur jarak bayangan dari elemen (0px pada sumbu x dan 7px pada sumbu y),
+     besar bayangan (29px), dan tidak ada bayangan pada sisi kiri (0px).
   
   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/9e48cc3f-3d67-42d7-b8e1-499c0d863098)
-*.info:hover merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .info saat mouse mengarah ke elemen tersebut (dalam keadaan hover).
--	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;: Ini mengubah bayangan elemen saat dihover menjadi warna hitam dengan tingkat transparansi yang lebih rendah. Parameter lainnya tetap sama seperti dalam deklarasi .info.
--	transition: 500ms;: Ini menambahkan efek transisi dengan durasi 500 milidetik. Ini berarti perubahan dari bayangan asli ke bayangan saat dihover akan berlangsung selama 0,5 detik, memberikan efek perubahan yang halus.
+  
+  *.info:hover merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .info saat mouse mengarah ke elemen tersebut (dalam keadaan hover).
+  - box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;: Ini mengubah bayangan elemen saat dihover menjadi warna hitam dengan tingkat transparansi yang lebih rendah. Parameter
+    lainnya tetap sama seperti dalam deklarasi .info.
+  - transition: 500ms;: Ini menambahkan efek transisi dengan durasi 500 milidetik. Ini berarti perubahan dari bayangan asli ke bayangan saat dihover akan berlangsung
+    selama 0,5 detik, memberikan efek perubahan yang halus.
   
   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/20258cb8-2b0e-4096-a084-17555873c19f)
- *.zoomable merupakan deklarasi gaya untuk elemen HTML dengan kelas .zoomable. Gaya ini mengaktifkan efek zoom saat elemen diberi klik.
--	cursor: pointer;: Mengubah kursor mouse menjadi tanda panah saat berada di atas elemen .zoomable, menunjukkan bahwa elemen dapat diklik.
--	transition: transform 0.3s;: Ini menambahkan efek transisi ke properti transform dengan durasi 0,3 detik. Ini memungkinkan elemen untuk berubah secara halus ketika properti transform diubah.
+  
+  *.zoomable merupakan deklarasi gaya untuk elemen HTML dengan kelas .zoomable. Gaya ini mengaktifkan efek zoom saat elemen diberi klik.
+  - cursor: pointer;: Mengubah kursor mouse menjadi tanda panah saat berada di atas elemen .zoomable, menunjukkan bahwa elemen dapat diklik.
+  - transition: transform 0.3s;: Ini menambahkan efek transisi ke properti transform dengan durasi 0,3 detik. Ini memungkinkan elemen untuk berubah secara halus ketika
+    properti transform diubah.
 
   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/8fdebbb6-bd33-4dfa-a794-d57a53879fa9)
-*.zoomable.zoomed merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .zoomable ketika memiliki kelas tambahan .zoomed.
--	transform: scale(2);: Ini mengubah skala elemen sehingga menjadi dua kali lebih besar dari ukuran aslinya. Ini memberikan efek zoom pada elemen saat memiliki kelas .zoomed. Anda dapat mengganti nilai "2" sesuai dengan faktor perbesaran yang diinginkan.
-Semua kode CSS di atas digunakan untuk memperindah tampilan elemen HTML dengan kelas .info dan memberikan efek zoom pada elemen dengan kelas .zoomable saat mereka diberi klik atau kelas tambahan .zoomed.
+  
+  *.zoomable.zoomed merupakan deklarasi gaya tambahan yang akan diterapkan pada elemen .zoomable ketika memiliki kelas tambahan .zoomed.
+  - transform: scale(2);: Ini mengubah skala elemen sehingga menjadi dua kali lebih besar dari ukuran aslinya. Ini memberikan efek zoom pada elemen saat memiliki kelas
+    .zoomed. Anda dapat mengganti nilai "2" sesuai dengan faktor perbesaran yang diinginkan.
+  - Semua kode CSS di atas digunakan untuk memperindah tampilan elemen HTML dengan kelas .info dan memberikan efek zoom pada elemen dengan kelas .zoomable saat mereka
+    diberi klik atau kelas tambahan .zoomed.
 
 7.4 Tentang.css
    Kode CSS dapat mengatur gaya yang digunakan untuk memformat dan mengatur tampilan halaman web. Penjelasan setiap kode sebagai berikut :
+   
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/8d5432e7-4db2-4810-a534-12a29b449982)
--	Bagian ini mengatur tampilan elemen header dalam halaman web. Latar belakang header menggunakan gambar 'motorcycle.png' dari folder 'asset/img' yang diatur ke tengah (center) dengan ukuran 'cover' dan tidak diulang (no-repeat).
--	Teks dalam header memiliki warna putih (#fff), teks berada di tengah (center), dan memiliki padding atas dan bawah sebesar 100px.
--	Elemen header memiliki posisi relatif (relative), yang dapat digunakan untuk mengatur posisi elemen anak yang memiliki posisi absolut.
+   
+   - Bagian ini mengatur tampilan elemen header dalam halaman web. Latar belakang header menggunakan gambar 'motorcycle.png' dari folder 'asset/img' yang diatur ke tengah
+     (center) dengan ukuran 'cover' dan tidak diulang (no-repeat).
+   - Teks dalam header memiliki warna putih (#fff), teks berada di tengah (center), dan memiliki padding atas dan bawah sebesar 100px.
+   - Elemen header memiliki posisi relatif (relative), yang dapat digunakan untuk mengatur posisi elemen anak yang memiliki posisi absolut.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/27fd8024-3d3c-47ce-bda0-271ad6cafdb2)
--	Bagian ini menambahkan elemen pseudo ::before ke dalam header yang digunakan untuk menampilkan overlay hitam di belakang elemen header.
--	Elemen ini memiliki posisi absolut (absolute) dan menutupi seluruh header (100% lebar dan tinggi).
--	Warna overlay hitam diatur dengan kode warna RGBA (0, 0, 0, 0.5), yang berarti warna hitam dengan tingkat transparansi (alpha) sebesar 0.5 (50% transparan).
--	Z-index diatur ke -1, sehingga overlay ditempatkan di belakang konten teks dalam header.
+   
+   - Bagian ini menambahkan elemen pseudo ::before ke dalam header yang digunakan untuk menampilkan overlay hitam di belakang elemen header.
+   - Elemen ini memiliki posisi absolut (absolute) dan menutupi seluruh header (100% lebar dan tinggi).
+   - Warna overlay hitam diatur dengan kode warna RGBA (0, 0, 0, 0.5), yang berarti warna hitam dengan tingkat transparansi (alpha) sebesar 0.5 (50% transparan).
+   - Z-index diatur ke -1, sehingga overlay ditempatkan di belakang konten teks dalam header.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/98ad5257-1d66-4525-aad4-8b9159590601)
--	Kelas .hero digunakan untuk mengatur konten di dalam header.
--	Konten dengan kelas .hero memiliki lebar maksimum (max-width) sebesar 800px dan diatur menjadi tengah (center) menggunakan margin: 0 auto.
+   
+   - Kelas .hero digunakan untuk mengatur konten di dalam header.
+   - Konten dengan kelas .hero memiliki lebar maksimum (max-width) sebesar 800px dan diatur menjadi tengah (center) menggunakan margin: 0 auto.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/5be43327-9b39-4162-b605-25c18aaadc74)
--	Bagian ini mengatur gaya teks h1, p, dan tombol (button) dalam header.
--	h1 memiliki ukuran font 48px dan margin 20px pada atas dan bawah.
--	p memiliki ukuran font 20px dan margin 20px pada atas dan bawah.
--	Tombol (button) memiliki latar belakang biru (#007BFF), teks putih (#fff), dan beberapa atribut styling lainnya.
--	Ketika tombol dihover (mouse dilewatkan di atasnya), latar belakangnya berubah menjadi biru yang lebih gelap (#0056b3).
--	Tautan (a) memiliki warna putih dan tidak ada dekorasi tautan (text-decoration: none).
+   
+   - Bagian ini mengatur gaya teks h1, p, dan tombol (button) dalam header.
+   - h1 memiliki ukuran font 48px dan margin 20px pada atas dan bawah.
+   - p memiliki ukuran font 20px dan margin 20px pada atas dan bawah.
+   - Tombol (button) memiliki latar belakang biru (#007BFF), teks putih (#fff), dan beberapa atribut styling lainnya.
+   - Ketika tombol dihover (mouse dilewatkan di atasnya), latar belakangnya berubah menjadi biru yang lebih gelap (#0056b3).
+   - Tautan (a) memiliki warna putih dan tidak ada dekorasi tautan (text-decoration: none).
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/1383651a-14a2-4d05-8b4d-1934ae91a53e)
--	Bagian ini mengatur tampilan elemen dengan kelas .info, yang mungkin digunakan dalam bagian "Section" dari halaman web.
--	Elemen dengan kelas .info ditampilkan dalam mode fleksibel (flex).
--	Kontennya diatur agar berada di tengah secara horizontal dan vertikal.
--	Elemen ini memiliki padding 50px.
+   
+   - Bagian ini mengatur tampilan elemen dengan kelas .info, yang mungkin digunakan dalam bagian "Section" dari halaman web.
+   - Elemen dengan kelas .info ditampilkan dalam mode fleksibel (flex).
+   - Kontennya diatur agar berada di tengah secara horizontal dan vertikal.
+   - Elemen ini memiliki padding 50px.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/50060329-a505-45c7-9db5-a9817c5051ca)
--	Bagian ini mengatur tampilan elemen dengan kelas .info-image, yang mungkin berisi gambar.
--	Elemen dengan kelas .info-image diberikan fleksibilitas dengan flex: 1, yang mengatur sebagian besar lebar untuk elemen ini.
--	Elemen ini memiliki padding 20px.
--	Gambar di dalam elemen ini (yang mungkin ada dalam elemen img) diberikan sudut lengkung (border-radius) sebesar 20px.
+   
+   - Bagian ini mengatur tampilan elemen dengan kelas .info-image, yang mungkin berisi gambar.
+   - Elemen dengan kelas .info-image diberikan fleksibilitas dengan flex: 1, yang mengatur sebagian besar lebar untuk elemen ini.
+   - Elemen ini memiliki padding 20px.
+   - Gambar di dalam elemen ini (yang mungkin ada dalam elemen img) diberikan sudut lengkung (border-radius) sebesar 20px.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/010c0b6c-a835-4638-930f-5c331b714d45)
--	Bagian ini mengatur tampilan elemen dengan kelas .info-content, yang mungkin berisi konten teks.
--	Elemen dengan kelas .info-content diberikan fleksibilitas dengan flex: 2, yang mengatur sebagian besar lebar untuk elemen ini.
--	Elemen ini memiliki padding 20px.
--	Judul (h1) di dalam elemen ini memiliki ukuran font 36px dan margin 20px pada atas dan bawah.
--	Paragraf (p) di dalam elemen ini memiliki ukuran font 18px dan jarak baris (line-height) sebesar 1.5.
+   
+   - Bagian ini mengatur tampilan elemen dengan kelas .info-content, yang mungkin berisi konten teks.
+   - Elemen dengan kelas .info-content diberikan fleksibilitas dengan flex: 2, yang mengatur sebagian besar lebar untuk elemen ini.
+   - Elemen ini memiliki padding 20px.
+   - Judul (h1) di dalam elemen ini memiliki ukuran font 36px dan margin 20px pada atas dan bawah.
+   - Paragraf (p) di dalam elemen ini memiliki ukuran font 18px dan jarak baris (line-height) sebesar 1.5.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/36bd4156-785f-4ab6-bfc2-b97717d6f0a9)
--	Bagian ini mengatur tampilan elemen dengan kelas .container, yang mungkin digunakan untuk mengelola kotak flip (flip boxes) di halaman web.
--	Elemen dengan kelas .container ditampilkan dalam mode fleksibel (flex) dengan arah baris horizontal (row).
--	Kontennya diatur untuk tersebar sekitar ruang yang tersedia (justify-content: space-around).
--	Kontennya juga diatur agar berada di tengah secara horizontal dan vertikal.
--	Elemen ini memiliki padding 20px.
+   
+   - Bagian ini mengatur tampilan elemen dengan kelas .container, yang mungkin digunakan untuk mengelola kotak flip (flip boxes) di halaman web.
+   - Elemen dengan kelas .container ditampilkan dalam mode fleksibel (flex) dengan arah baris horizontal (row).
+   - Kontennya diatur untuk tersebar sekitar ruang yang tersedia (justify-content: space-around).
+   - Kontennya juga diatur agar berada di tengah secara horizontal dan vertikal.
+   - Elemen ini memiliki padding 20px.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/bf93e156-dbde-4a22-97db-94bb99a9e69e)
--	Bagian ini mengatur tampilan elemen dengan kelas .flip-box, yang mungkin digunakan untuk membuat kotak flip (flip box).
--	Elemen ini memiliki lebar 200px, tinggi 300px, dan efek perspektif sebesar 1000px yang akan memberikan efek 3D saat elemen ini diputar.
--	Elemen ini memiliki margin 10px, yang mungkin digunakan untuk memberikan jarak antara kotak flip.
+   
+   - Bagian ini mengatur tampilan elemen dengan kelas .flip-box, yang mungkin digunakan untuk membuat kotak flip (flip box).
+   - Elemen ini memiliki lebar 200px, tinggi 300px, dan efek perspektif sebesar 1000px yang akan memberikan efek 3D saat elemen ini diputar.
+   - Elemen ini memiliki margin 10px, yang mungkin digunakan untuk memberikan jarak antara kotak flip.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/2b5b6f64-fa62-41a4-ab3a-9175937253e9)
--	Bagian ini mengatur tampilan elemen dalam kotak flip (.flip-box-inner).
--	Elemen ini memiliki lebar dan tinggi sebesar 100% (sesuai dengan kotak flip yang mengelilinginya).
--	Terdapat transisi (transition) yang mengubah properti transform selama 0.5 detik, yang akan memberikan efek animasi saat elemen ini diputar (flip).
--	transform-style: preserve-3d digunakan untuk menjaga efek 3D tetap ada.
-
+   
+   - Bagian ini mengatur tampilan elemen dalam kotak flip (.flip-box-inner).
+   - Elemen ini memiliki lebar dan tinggi sebesar 100% (sesuai dengan kotak flip yang mengelilinginya).
+   - Terdapat transisi (transition) yang mengubah properti transform selama 0.5 detik, yang akan memberikan efek animasi saat elemen ini diputar (flip).
+   - transform-style: preserve-3d digunakan untuk menjaga efek 3D tetap ada.
+  
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/2c63d74e-6fea-441a-940a-501778b37b03)
--	Bagian ini mengatur perilaku elemen dalam kotak flip saat kursor mouse mengarah padanya (hover).
--	Ketika kotak flip dihover, elemen dalamnya (.flip-box-inner) akan diputar sebanyak 180 derajat pada sumbu Y, yang akan menghasilkan efek flip.
+   
+   - Bagian ini mengatur perilaku elemen dalam kotak flip saat kursor mouse mengarah padanya (hover).
+   - Ketika kotak flip dihover, elemen dalamnya (.flip-box-inner) akan diputar sebanyak 180 derajat pada sumbu Y, yang akan menghasilkan efek flip.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/e73605d7-cd7a-4b44-9454-7c0a0fe1586c)
--	Bagian ini mengatur tampilan elemen depan (.flip-box-front) dan elemen belakang (.flip-box-back) dalam kotak flip.
--	Kedua elemen ini memiliki lebar dan tinggi sebesar 100% (sesuai dengan kotak flip yang mengelilinginya).
--	Kedua elemen ini memiliki posisi absolut (absolute), yang memungkinkan mereka untuk ditumpuk satu sama lain dalam kotak flip.
--	backface-visibility: hidden digunakan untuk menyembunyikan sisi belakang elemen saat sedang diputar (flip).
--	Kedua elemen ini memiliki sudut lengkung (border-radius) sebesar 20px, memberikan tampilan sudut melengkung.
+   
+   - Bagian ini mengatur tampilan elemen depan (.flip-box-front) dan elemen belakang (.flip-box-back) dalam kotak flip.
+   - Kedua elemen ini memiliki lebar dan tinggi sebesar 100% (sesuai dengan kotak flip yang mengelilinginya).
+   - Kedua elemen ini memiliki posisi absolut (absolute), yang memungkinkan mereka untuk ditumpuk satu sama lain dalam kotak flip.
+   - backface-visibility: hidden digunakan untuk menyembunyikan sisi belakang elemen saat sedang diputar (flip).
+   - Kedua elemen ini memiliki sudut lengkung (border-radius) sebesar 20px, memberikan tampilan sudut melengkung.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/8eb739f8-a953-464b-a701-fd5e24fabc04)
--	Bagian ini mengatur tampilan elemen depan (.flip-box-front) dan elemen belakang (.flip-box-back) dalam kotak flip.
--	Elemen depan memiliki latar belakang abu-abu (#ccc) dan ditengahkan baik secara horizontal maupun vertikal.
--	Elemen belakang memiliki latar belakang biru (#007BFF), teks putih (#fff), dan juga ditengahkan secara horizontal dan vertikal.
--	Transformasi (rotateY) digunakan untuk memutar elemen belakang sebanyak 180 derajat pada sumbu Y, menghasilkan efek flip dari elemen depan ke elemen belakang.
+   
+   - Bagian ini mengatur tampilan elemen depan (.flip-box-front) dan elemen belakang (.flip-box-back) dalam kotak flip.
+   - Elemen depan memiliki latar belakang abu-abu (#ccc) dan ditengahkan baik secara horizontal maupun vertikal.
+   - Elemen belakang memiliki latar belakang biru (#007BFF), teks putih (#fff), dan juga ditengahkan secara horizontal dan vertikal.
+   - Transformasi (rotateY) digunakan untuk memutar elemen belakang sebanyak 180 derajat pada sumbu Y, menghasilkan efek flip dari elemen depan ke elemen belakang.
 
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/842ab2e3-d9fa-4b5f-861f-d2fcaf47f107)
--	Bagian ini mungkin mengatur tampilan gambar dengan kelas .img-1 yang mungkin digunakan dalam kotak flip.
--	Gambar dengan kelas .img-1 diberikan lebar maksimum (max-width) dan tinggi maksimum (max-height) sebesar 100% dari kotak yang mengelilinginya.
--	Gambar ini juga diberikan sudut lengkung (border-radius) sebesar 20px.
+   
+   - Bagian ini mungkin mengatur tampilan gambar dengan kelas .img-1 yang mungkin digunakan dalam kotak flip.
+   - Gambar dengan kelas .img-1 diberikan lebar maksimum (max-width) dan tinggi maksimum (max-height) sebesar 100% dari kotak yang mengelilinginya.
+   - Gambar ini juga diberikan sudut lengkung (border-radius) sebesar 20px.
 
 7.5 Script.js
+
    ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/4e1c7c3d-7672-46e4-b471-3df108991379)
--	const gambar = document.getElementById("gambar");
-Merupakan langkah pertama dalam kode, di mana Anda mengambil elemen HTML dengan ID "gambar" dan menyimpannya dalam variabel gambar. Dengan cara ini, Anda bisa mengakses dan mengendalikan elemen ini dalam JavaScript.
-
--	gambar.addEventListener("click", function () { ... });
-Kode ini menambahkan event listener pada elemen gambar. Event listener ini akan merespons ketika elemen gambar di klik (dengan kata lain, ketika pengguna mengklik gambar tersebut).
-
--	Dalam fungsi callback (function yang diberikan sebagai argumen), terdapat periksaan kondisi: if (gambar.classList.contains("zoomed")) { ... }. Ini menguji apakah elemen gambar memiliki kelas CSS bernama "zoomed". Jika ya, maka kelas "zoomed" akan dihapus (.removeClass("zoomed")), sehingga gambar akan kembali ke ukuran normal. Jika tidak, maka kelas "zoomed" akan ditambahkan (.addClass("zoomed")), sehingga gambar akan membesar saat diklik.
-
--	const learnMoreBtn = document.getElementById("learnMoreBtn");
-Kode ini mirip dengan langkah pertama. Ini mengambil elemen dengan ID "learnMoreBtn" dan menyimpannya dalam variabel learnMoreBtn.
-
--	learnMoreBtn.addEventListener("click", () => { ... });
-Seperti sebelumnya, kode ini menambahkan event listener ke elemen dengan ID "learnMoreBtn". Event ini akan dipicu ketika elemen tersebut diklik.
-
-
+   
+   - const gambar = document.getElementById("gambar"); merupakan langkah pertama dalam kode, di mana Anda mengambil elemen HTML dengan ID "gambar" dan menyimpannya dalam
+     variabel gambar. Dengan cara ini, Anda bisa mengakses dan mengendalikan elemen ini dalam JavaScript.
+   - gambar.addEventListener("click", function () { ... });
+     Kode ini menambahkan event listener pada elemen gambar. Event listener ini akan merespons ketika elemen gambar di klik (dengan kata lain, ketika pengguna mengklik
+     gambar tersebut).
+   - Dalam fungsi callback (function yang diberikan sebagai argumen), terdapat periksaan kondisi: if (gambar.classList.contains("zoomed")) { ... }. Ini menguji apakah
+     elemen gambar memiliki kelas CSS bernama "zoomed". Jika ya, maka kelas "zoomed" akan dihapus (.removeClass("zoomed")), sehingga gambar akan kembali ke ukuran normal.
+   - Jika tidak, maka kelas "zoomed" akan ditambahkan (.addClass("zoomed")), sehingga gambar akan membesar saat diklik.
+     const learnMoreBtn = document.getElementById("learnMoreBtn");
+   - Kode ini mirip dengan langkah pertama. Ini mengambil elemen dengan ID "learnMoreBtn" dan menyimpannya dalam variabel learnMoreBtn.
+     learnMoreBtn.addEventListener("click", () => { ... });
+   - Seperti sebelumnya, kode ini menambahkan event listener ke elemen dengan ID "learnMoreBtn". Event ini akan dipicu ketika elemen tersebut diklik.
