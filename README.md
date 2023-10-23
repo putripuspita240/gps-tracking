@@ -5,6 +5,10 @@
 - Danu Teguh Heri Prasetyo (22091397100)
 - Amallia Berliany Putri (22091397102)
 
+D4 Manajemen Informatika
+Fakultas Vokasi Universitas Negeri Surabaya
+2023
+
 Daftar Isi
 1.	Pengantar
    1.1 Tujuan
