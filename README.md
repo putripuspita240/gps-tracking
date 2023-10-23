@@ -571,6 +571,22 @@ Semua kode CSS di atas digunakan untuk memperindah tampilan elemen HTML dengan k
 -	Gambar ini juga diberikan sudut lengkung (border-radius) sebesar 20px.
 
 7.5 Script.js
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/4e1c7c3d-7672-46e4-b471-3df108991379)
+-	const gambar = document.getElementById("gambar");
+Merupakan langkah pertama dalam kode, di mana Anda mengambil elemen HTML dengan ID "gambar" dan menyimpannya dalam variabel gambar. Dengan cara ini, Anda bisa mengakses dan mengendalikan elemen ini dalam JavaScript.
+
+-	gambar.addEventListener("click", function () { ... });
+Kode ini menambahkan event listener pada elemen gambar. Event listener ini akan merespons ketika elemen gambar di klik (dengan kata lain, ketika pengguna mengklik gambar tersebut).
+
+-	Dalam fungsi callback (function yang diberikan sebagai argumen), terdapat periksaan kondisi: if (gambar.classList.contains("zoomed")) { ... }. Ini menguji apakah elemen gambar memiliki kelas CSS bernama "zoomed". Jika ya, maka kelas "zoomed" akan dihapus (.removeClass("zoomed")), sehingga gambar akan kembali ke ukuran normal. Jika tidak, maka kelas "zoomed" akan ditambahkan (.addClass("zoomed")), sehingga gambar akan membesar saat diklik.
+
+-	const learnMoreBtn = document.getElementById("learnMoreBtn");
+Kode ini mirip dengan langkah pertama. Ini mengambil elemen dengan ID "learnMoreBtn" dan menyimpannya dalam variabel learnMoreBtn.
+
+-	learnMoreBtn.addEventListener("click", () => { ... });
+Seperti sebelumnya, kode ini menambahkan event listener ke elemen dengan ID "learnMoreBtn". Event ini akan dipicu ketika elemen tersebut diklik.
+
+
 
    
 
