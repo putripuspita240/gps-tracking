@@ -11,13 +11,14 @@ Fakultas Vokasi Universitas Negeri Surabaya
 
 
 Daftar Isi
-1.	Pengantar	
+1.	Pengantar
+   
 1.1	Tujuan	
 1.2	Konvensi Dokumen	1
 1.3	Audiens Yang Dituju	2
 1.4	Lingkup Produk	2
 1.5	Referensi	3
-2.	Deskripsi Keseluruhan	4
+3.	Deskripsi Keseluruhan	4
 2.1	Perspektif Produk	4
 2.2	Fungsi Produk	4
 2.3	Kelas dan Karakteristik Pengguna	5
@@ -25,24 +26,24 @@ Daftar Isi
 2.5	Kendala Desain dan Implementasi	7
 2.6	Dokumentasi Pengguna	8
 2.7	Asumsi dan Dependensi	10
-3.	Persyaratan Antarmuka	11
+4.	Persyaratan Antarmuka	11
 3.1	Antarmuka Pengguna	11
 3.2	Antarmuka Perangkat Keras	15
 3.3	Antarmuka Perangkat Lunak	15
 3.4	Antarmuka Komunikasi	15
-4.	Fitur Sistem	16
+5.	Fitur Sistem	16
 4.1	Lokasi secara Real-Time	16
 4.2	Riwayat Lokasi	16
 4.3	Temukan Lokasi	16
 4.4	Terhuung dengan Sepeda motor	16
 4.5	Notifikasi	16
-5.	Persyaratan Fungsional Lainnya	17
+6.	Persyaratan Fungsional Lainnya	17
 5.1	Persyaratan Performa	17
 5.2	Persyaratan Keamanan Pengguna	17
 5.3	Persyaratan Keamanan GPS Tracking Motorcycle	18
 5.4	Atribut Kualitas Perangkat Lunak	18
 5.5	Proses Bisnis	20
-6.	Persyaratan	21
+7.	Persyaratan	21
 
 
 1.	Pengantar
