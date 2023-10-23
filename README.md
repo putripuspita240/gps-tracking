@@ -322,7 +322,20 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
 
 ## 6. Persyaratan
    Lampiran A: Glosarium
+   
+   | Istilah | Definisi |
+   | ------ | ------ |
+   | Global Poisitioning System | Sebuah sistem navigasi global yang menggunakan satelit  |
+   | Website | Kumpulan halaman web yang dapat diakses melalui internet |
+   | Tracking | Proses memantau pergerakan suatu objek dengan menggunakan berbagai teknologi |
+   | Admin | Seseorang yang bertanggung jawab dalam
+mengelola tugas administratif dalam suatu sistem
+ |
+   | User | Seseorang yang berinteraksi dengan suatu sistem untuk mencapai tujuan tertentu |
+   | Software | Kumpulan program komputer yang dirancang untuk menjalankan tugas spesifik pada suatu perangkat lunak komputer |
+   | Hardware | Komponen fisik yang membentuk dari suatu sistem komputer |
 
+   
    ![WhatsApp Image 2023-10-22 at 17 57 37_1ba8912a](https://github.com/putripuspita240/gps-tracking/assets/124540466/f7c4a4d3-20f3-4979-ac78-237bd651017f)
 
    Lampiran B: Model Analisis
