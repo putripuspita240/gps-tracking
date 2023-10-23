@@ -41,52 +41,21 @@ Fakultas Vokasi Universitas Negeri Surabaya
 5.3	Persyaratan Keamanan GPS Tracking Motorcycle	
 5.4	Atribut Kualitas Perangkat Lunak	
 5.5	Proses Bisnis	
-6.	Persyaratan	
-  
-  
+6.	Persyaratan
+
+## 1. Pengantar
+1.1	Tujuan
+Tujuan pembuatan website GPS Tracking Motorcycle antara lain :
+
+1.	Meningkatkan keamanan pengendara
+2.	Meminimalisir risiko pencurian sepeda motor
+3.	Meningkatkan efisiensi lalu lintas
+4.	Melacak posisi sepeda motor yang hilang
+5.	Memberikan informasi lokasi sepeda motor
+6.	Memantau aktivitas berkendara
 
 
-   1. Pengantar
-      
-   1. 1 Tujuan
-   Tujuan pembuatan website GPS Tracking Motorcycle antara lain :
-
-   1.	Meningkatkan keamanan pengendara
-   2.	Meminimalisir risiko pencurian sepeda motor
-   3.	Meningkatkan efisiensi lalu lintas
-   4.	Melacak posisi sepeda motor yang hilang
-   5.	Memberikan informasi lokasi sepeda motor
-   6.	Memantau aktivitas berkendara\
-         
-   1.2 Konvensi Dokumen
    
-   Website yang akan dikembangkan adalah GPS Tracking Motorcycle, sebuah aplikasi yang memungkinkan pemilik sepeda motor untuk melacak dan memantau pergerakan sepeda
-   motornya secara real-time. Website ini memanfaatkan teknologi GPS (Global Positioning System) untuk menentukan posisi sepeda motor. GPS Tracking Motorcycle dapat
-   melakukan hal-hal berikut ini :
-   
-   1. Sistem dapat menampilkan menu pendaftaran akun untuk login ke aplikasi
-   2. Sistem dapat menampilkan menu login
-   3. Sistem harus mampu melacak posisi sepeda motor secara real-time
-   4. Sistem dapat menampilkan posisi sepeda motor pada peta
-   5. Sistem harus mampu mengirimkan notifikasi pada pengguna jika terjadi situasiyang tidak diinginkan
-   6. Sistem harus mampu mencatat riwayat perjalanan sepeda motor, seperti waktu, lokasi,dan rute yang ditempuh
-   7. Sistem harus memiliki fitur manajemen pengguna
-   8. Sistem dapat diintegrasikan dengan aplikasi lain
-   9. Sistem dapat menganalisis data lokasi dan waktu
-   10. Sistem harus mampu bergerak dengan berbagai jenis sepeda motor
-   11. Sistem dapat memantau kecepatan motor
-   12. Sistem harus bekerja dengan menggunakan daya baterai sepeda motor seperti baterai internal atau tenaga surya
-   13. Sistem memiliki tampilan yang mudah dipahami
-   14. Sistem dapat dioperasikan sesuai fungsinya dengan baik termasuk fitur-fitur yang diinginkan\
-   15. Sistem harus dapat diandalkan
-   16. Sistem harus tersedia dan dapat diakses oleh pengguna kapan saja
-   17. Sistem harus memiliki performa yang baik dan responsive
-   18. Sistem dapat mengatasi pertumbuhan pengguna dan data yang semakin besar
-   19. Sistem harus dilengkapi dengan dukungan teknis yang baik
-   20. Sistem dapat menjamin keamanan data akun
-   21. Sistem dapat diakses dengan smartphone
-   22. Sistem harus meminim kesalahan dari masalah
-
 
    1.3 Audiens Yang Dituju
    
