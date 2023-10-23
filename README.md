@@ -328,9 +328,7 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    | Global Poisitioning System | Sebuah sistem navigasi global yang menggunakan satelit  |
    | Website | Kumpulan halaman web yang dapat diakses melalui internet |
    | Tracking | Proses memantau pergerakan suatu objek dengan menggunakan berbagai teknologi |
-   | Admin | Seseorang yang bertanggung jawab dalam
-mengelola tugas administratif dalam suatu sistem
- |
+   | Admin | Seseorang yang bertanggung jawab dalam mengelola tugas administratif dalam suatu sistem |
    | User | Seseorang yang berinteraksi dengan suatu sistem untuk mencapai tujuan tertentu |
    | Software | Kumpulan program komputer yang dirancang untuk menjalankan tugas spesifik pada suatu perangkat lunak komputer |
    | Hardware | Komponen fisik yang membentuk dari suatu sistem komputer |
