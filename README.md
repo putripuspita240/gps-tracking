@@ -1,14 +1,9 @@
-Software Requirements Specification for GPS Tracking Motorcycle Version 1.0 Disetujui
+# Software Requirements Specification for GPS Tracking Motorcycle Version 1.0 Disetujui
 
-Disusun Oleh :
+## Disusun Oleh :
 Putri Puspitasari (22091397097)
 Danu Teguh Heri Prasetyo (22091397100)
 Amallia Berliany Putri (22091397102)
-
-D4 Manajemen Informatika
-Fakultas Vokasi Universitas Negeri Surabaya
-2023
-
 
 Daftar Isi
 1.	Pengantar
