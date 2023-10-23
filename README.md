@@ -42,6 +42,7 @@ Fakultas Vokasi Universitas Negeri Surabaya
 5.4	Atribut Kualitas Perangkat Lunak	
 5.5	Proses Bisnis	
 6.	Persyaratan
+7.	Penjelasan Coding
 
 ## 1. Pengantar
 1.1	Tujuan
