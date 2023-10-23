@@ -12,155 +12,222 @@ Fakultas Vokasi Universitas Negeri Surabaya
 
 Daftar Isi
 1.	Pengantar
-1.1 Tujuan	
-1.2 Konvensi Dokumen	
-1.3 Audiens Yang Dituju	
-1.4 Lingkup Produk	
-1.5 Referensi	
-3. Deskripsi Keseluruhan	
-2.1 Perspektif Produk	
-2.2 Fungsi Produk	
-2.3 Kelas dan Karakteristik Pengguna	
-2.4 Lingkungan Pengembangan	
-2.5 Kendala Desain dan Implementasi	
-2.6 Dokumentasi Pengguna	
-2.7 Asumsi dan Dependensi	
-4. Persyaratan Antarmuka	
-3.1 Antarmuka Pengguna	
-3.2 Antarmuka Perangkat Keras	
-3.3 Antarmuka Perangkat Lunak	
-3.4 Antarmuka Komunikasi	
-5. Fitur Sistem	
-4.1 Lokasi secara Real-Time	
-4.2 Riwayat Lokasi	
-4.3 Temukan Lokasi	
-4.4 Terhubung dengan Sepeda motor	
-4.5 Notifikasi	
-5.	Persyaratan Fungsional Lainnya	
-5.1 Persyaratan Performa	
-5.2 Persyaratan Keamanan Pengguna	
-5.3 Persyaratan Keamanan GPS Tracking Motorcycle	
-5.4 Atribut Kualitas Perangkat Lunak	
-5.5 Proses Bisnis	
+   1.1 Tujuan
+  	1.2 Konvensi Dokumen
+  	1.3 Audiens Yang Dituju
+  	1.4 Lingkup Produk
+  	1.5 Referensi	
+2. Deskripsi Keseluruhan
+   2.1 Perspektif Produk
+   2.2 Fungsi Produk
+   2.3 Kelas dan Karakteristik Pengguna
+   2.4 Lingkungan Pengembangan
+   2.5 Kendala Desain dan Implementasi
+   2.6 Dokumentasi Pengguna
+   2.7 Asumsi dan Dependensi	
+3. Persyaratan Antarmuka
+   3.1 Antarmuka Pengguna
+   3.2 Antarmuka Perangkat Keras
+   3.3 Antarmuka Perangkat Lunak
+   3.4 Antarmuka Komunikasi	
+4. Fitur Sistem
+   4.1 Lokasi secara Real-Time
+   4.2 Riwayat Lokasi
+   4.3 Temukan Lokasi
+   4.4 Terhubung dengan Sepeda motor
+   4.5 Notifikasi	
+5.	Persyaratan Fungsional Lainnya
+   5.1 Persyaratan Performa
+  	5.2 Persyaratan Keamanan Pengguna
+  	5.3 Persyaratan Keamanan GPS Tracking Motorcycle
+  	5.4 Atribut Kualitas Perangkat Lunak
+  	5.5 Proses Bisnis	
 6.	Persyaratan	
 7. Penjelasan Codingan
 
 
 
-1. Pengantar
+   1. Pengantar
+      
+   1. 1 Tujuan
+   Tujuan pembuatan website GPS Tracking Motorcycle antara lain :
 
-1. 1 Tujuan
-Tujuan pembuatan website GPS Tracking Motorcycle antara lain :
-
-1.	Meningkatkan keamanan pengendara
-2.	Meminimalisir risiko pencurian sepeda motor
-3.	Meningkatkan efisiensi lalu lintas
-4.	Melacak posisi sepeda motor yang hilang
-5.	Memberikan informasi lokasi sepeda motor
-6.	Memantau aktivitas berkendara
-
-1.2 Konvensi Dokumen
-Website yang akan dikembangkan adalah GPS Tracking Motorcycle, sebuah aplikasi yang memungkinkan pemilik sepeda motor untuk melacak dan memantau pergerakan sepeda motornya secara real-time. Website ini memanfaatkan teknologi GPS (Global Positioning System) untuk menentukan posisi sepeda motor. GPS Tracking Motorcycle dapat melakukan hal-hal berikut ini :
-
-1.	Sistem dapat menampilkan menu pendaftaran akun untuk login ke aplikasi
-2.	Sistem dapat menampilkan menu login
-3.	Sistem harus mampu melacak posisi sepeda motor secara real-time
-4.	Sistem dapat menampilkan posisi sepeda motor pada peta
-5.	Sistem harus mampu mengirimkan notifikasi pada pengguna jika terjadi situasiyang tidak diinginkan
-6.	Sistem harus mampu mencatat riwayat perjalanan sepeda motor, seperti waktu, lokasi,dan rute yang ditempuh
-7.	Sistem harus memiliki fitur manajemen pengguna
-8.	Sistem dapat diintegrasikan dengan aplikasi lain
-9.	Sistem dapat menganalisis data lokasi dan waktu
-10.	Sistem harus mampu bergerak dengan berbagai jenis sepeda motor
-11.	Sistem dapat memantau kecepatan motor
-12.	Sistem harus bekerja dengan menggunakan daya baterai sepeda motor seperti baterai internal atau tenaga surya
-13.	Sistem memiliki tampilan yang mudah dipahami
-14.	Sistem dapat dioperasikan sesuai fungsinya dengan baik termasuk fitur-fitur yang diinginkan
-15.	Sistem harus dapat diandalkan
-16.	Sistem harus tersedia dan dapat diakses oleh pengguna kapan saja
-17.	Sistem harus memiliki performa yang baik dan responsive
-18.	Sistem dapat mengatasi pertumbuhan pengguna dan data yang semakin besar
-19.	Sistem harus dilengkapi dengan dukungan teknis yang baik
-20.	Sistem dapat menjamin keamanan data akun
-21.	Sistem dapat diakses dengan smartphone
-22.	Sistem harus meminim kesalahan dari masalah
-
-1.3 Audiens Yang Dituju
-Pengguna yang dituju untuk pengembangan website GPS tracking untuk sepeda motor dapat mencakup beberapa kelompok, antara lain :
-
-1.	Pemilik Sepeda Motor: Pemilik sepeda motor adalah target utama untuk website GPS tracking. Mereka akan menggunakan website tersebut untuk melacak lokasi sepeda motor mereka dalam situasi tertentu, seperti pencurian atau jika mereka ingin memantau pergerakan sepeda motor mereka.
-2.	Perusahaan Rental Sepeda Motor: Perusahaan rental sepeda motor dapat menjadi audiens yang potensial untuk website GPS tracking. Mereka dapat menggunakan website tersebut untuk melacak dan mengelola sepeda motor yang mereka sewakan kepada pelanggan mereka.
-3.	Penyedia Layanan Kurir atau Pengiriman: Penyedia layanan kurir atau pengiriman juga dapat menjadi target audiens. Mereka dapat menggunakan aplikasi GPS tracking untuk melacak posisi sepeda motor kurir dan memantau pengiriman barang dengan lebih efisien.
-4.	Klub atau Komunitas Sepeda Motor: Klub atau komunitas sepeda motor juga bisa menjadi audiens yang berpotensi. Mereka dapat menggunakan website GPS tracking untuk mengorganisir perjalanan bersama atau acara lainnya, sehingga anggota dapat melihat posisi sepeda motor satu sama lain dalam waktu nyata.
-5.	Pemilik Flotila Sepeda Motor: Jika ada pemilik bisnis atau organisasi yang memiliki flotilla sepeda motor, seperti layanan pengantaran makanan atau layanan kurir. Website ini dapat membantu mereka mengawasi sepeda motor dan meningkatkan efisiensi operasional.
-
-1.4 Lingkup Produk
-GPS tracking untuk sepeda motor melibatkan penggunaan teknologi Global Positioning System (GPS) untuk melacak lokasi, pergerakan, dan informasi relevan lainnya dari sepeda motor secara real-time. Hal ini menawarkan berbagai manfaat, termasuk pencegahan pencurian, manajemen armada, dan peningkatan keamanan. Berikut adalah beberapa aspek dan fitur utama terkait GPS tracking untuk sepeda motor :
-
-1.	Pelacakan lokasi real-time: Sistem GPS tracking memungkinkan pemilik sepeda motor atau manajer armada untuk memantau lokasi sepeda motor secara real- time melalui satelit GPS. Informasi ini biasanya dapat diakses melalui platform berbasis web.
-2.	Pencegahan dan pemulihan pencurian: GPS tracker menyediakan cara yang efektif untuk mencegah pencurian sepeda motor. Pada saat terjadinya pencurian, pemilik dapat melacak lokasi sepeda motor yang dicuri dan berkoordinasi dengan pihak berwenang untuk melakukan pemulihan.
-3.	Geofencing: fitur yang memungkinkan pengguna untuk mengatur batas virtual atau geofence di sekitar area tertentu. Ketika sepeda motor yang dilengkapi dengan GPS tracker memasuki atau keluar dari batas-batas ini, sistem akan mengirimkan peringatan kepada pemilik atau manajer armada, memberikan notifikasi secara langsung.
-4.	Riwayat rute: GPS tracking juga dapat menyimpan riwayat rute yang telah ditempuh oleh sepeda motor. Informasi ini dapat digunakan untuk analisis perjalanan, pemantauan kinerja, dan perencanaan perjalanan di masa depan.
-5.	Fitur tambahan: Selain fitur utama yang disebutkan di atas, beberapa GPS tracker untuk sepeda motor juga dapat dilengkapi dengan fitur tambahan seperti pemantauan kecepatan, notifikasi kebocoran bahan bakar, pemadaman mesin dari jarak jauh, dan sebagainya.
-6.	GPS tracking untuk sepeda motor memberikan kemudahan dan keamanan tambahan bagi pemilik sepeda motor atau perusahaan yang memiliki armada sepeda motor. Dengan memanfaatkan teknologi GPS, mereka dapat melacak dan mengawasi sepeda motor secara efektif dalam berbagai situasi.
-
-1.5 Referensi
-Dokumen ini merujuk pada hasil observasi yang berkaitan dengan kebutuhan dan mencakup data secara umum, diperlukannya dan penulis dokumen berdasarkan pada:
-
-1.	https://moladin.com/blog/fungsi-gps-tracker-motor/
-2.	https://gpsku.co.id/gps-motor/
-3.	https://www.sologlobaltracker.com/mengenal-gps-tracker-fungsi-manfaat-dan- penggunaannya-dalam-kehidupan-sehari-hari/
-4.	https://openlibrary.telkomuniversity.ac.id/pustaka/files/162743/jurnal_eproc/pera ncangan-gps-tracking-untuk-penyewaan-kendaraan-bermotor.pdf
-5.	https://appmaster.io/id/blog/proses-pengembangan-aplikasi-gps-dan-contohnya
-6.	https://cartrack.id/id/5-fitur-gps-tracker-yang-wajib-ada-dalam-sistem-pemantauan-kendaraan
+   1.	Meningkatkan keamanan pengendara
+   2.	Meminimalisir risiko pencurian sepeda motor
+   3.	Meningkatkan efisiensi lalu lintas
+   4.	Melacak posisi sepeda motor yang hilang
+   5.	Memberikan informasi lokasi sepeda motor
+   6.	Memantau aktivitas berkendara\
+         
+   1.2 Konvensi Dokumen
+   
+   Website yang akan dikembangkan adalah GPS Tracking Motorcycle, sebuah aplikasi yang memungkinkan pemilik sepeda motor untuk melacak dan memantau pergerakan sepeda
+   motornya secara real-time. Website ini memanfaatkan teknologi GPS (Global Positioning System) untuk menentukan posisi sepeda motor. GPS Tracking Motorcycle dapat
+   melakukan hal-hal berikut ini :
+   
+   1. Sistem dapat menampilkan menu pendaftaran akun untuk login ke aplikasi
+   2. Sistem dapat menampilkan menu login
+   3. Sistem harus mampu melacak posisi sepeda motor secara real-time
+   4. Sistem dapat menampilkan posisi sepeda motor pada peta
+   5. Sistem harus mampu mengirimkan notifikasi pada pengguna jika terjadi situasiyang tidak diinginkan
+   6. Sistem harus mampu mencatat riwayat perjalanan sepeda motor, seperti waktu, lokasi,dan rute yang ditempuh
+   7. Sistem harus memiliki fitur manajemen pengguna
+   8. Sistem dapat diintegrasikan dengan aplikasi lain
+   9. Sistem dapat menganalisis data lokasi dan waktu
+   10. Sistem harus mampu bergerak dengan berbagai jenis sepeda motor
+   11. Sistem dapat memantau kecepatan motor
+   12. Sistem harus bekerja dengan menggunakan daya baterai sepeda motor seperti baterai internal atau tenaga surya
+   13. Sistem memiliki tampilan yang mudah dipahami
+   14. Sistem dapat dioperasikan sesuai fungsinya dengan baik termasuk fitur-fitur yang diinginkan\
+   15. Sistem harus dapat diandalkan
+   16. Sistem harus tersedia dan dapat diakses oleh pengguna kapan saja
+   17. Sistem harus memiliki performa yang baik dan responsive
+   18. Sistem dapat mengatasi pertumbuhan pengguna dan data yang semakin besar
+   19. Sistem harus dilengkapi dengan dukungan teknis yang baik
+   20. Sistem dapat menjamin keamanan data akun
+   21. Sistem dapat diakses dengan smartphone
+   22. Sistem harus meminim kesalahan dari masalah
 
 
+   1.3 Audiens Yang Dituju
+   
+   Pengguna yang dituju untuk pengembangan website GPS tracking untuk sepeda motor dapat mencakup beberapa kelompok, antara lain :
+   
+   1. Pemilik Sepeda Motor: Pemilik sepeda motor adalah target utama untuk website GPS tracking. Mereka akan menggunakan website tersebut untuk melacak lokasi sepeda motor
+      mereka dalam situasi tertentu, seperti pencurian atau jika mereka ingin memantau pergerakan sepeda motor mereka.
+   2. Perusahaan Rental Sepeda Motor: Perusahaan rental sepeda motor dapat menjadi audiens yang potensial untuk website GPS tracking. Mereka dapat menggunakan website
+      tersebut untuk melacak dan mengelola sepeda motor yang mereka sewakan kepada pelanggan mereka.
+   3. Penyedia Layanan Kurir atau Pengiriman: Penyedia layanan kurir atau pengiriman juga dapat menjadi target audiens. Mereka dapat menggunakan aplikasi GPS tracking
+      untuk melacak posisi sepeda motor kurir dan memantau pengiriman barang dengan lebih efisien.
+   4. Klub atau Komunitas Sepeda Motor: Klub atau komunitas sepeda motor juga bisa menjadi audiens yang berpotensi. Mereka dapat menggunakan website GPS tracking untuk
+      mengorganisir perjalanan bersama atau acara lainnya, sehingga anggota dapat melihat posisi sepeda motor satu sama lain dalam waktu nyata.
+   5. Pemilik Flotila Sepeda Motor: Jika ada pemilik bisnis atau organisasi yang memiliki flotilla sepeda motor, seperti layanan pengantaran makanan atau layanan kurir.
+      Website ini dapat membantu mereka mengawasi sepeda motor dan meningkatkan efisiensi operasional.
+   
+   1.4 Lingkup Produk
+   
+   GPS tracking untuk sepeda motor melibatkan penggunaan teknologi Global Positioning System (GPS) untuk melacak lokasi, pergerakan, dan informasi relevan lainnya dari
+   sepeda motor secara real-time. Hal ini menawarkan berbagai manfaat, termasuk pencegahan pencurian, manajemen armada, dan peningkatan keamanan. Berikut adalah beberapa
+   aspek dan fitur utama terkait GPS tracking untuk sepeda motor :
+   
+   1.	Pelacakan lokasi real-time: Sistem GPS tracking memungkinkan pemilik sepeda motor atau manajer armada untuk memantau lokasi sepeda motor secara real- time melalui
+      satelit GPS. Informasi ini biasanya dapat diakses melalui platform berbasis web.
+   2.	Pencegahan dan pemulihan pencurian: GPS tracker menyediakan cara yang efektif untuk mencegah pencurian sepeda motor. Pada saat terjadinya pencurian, pemilik dapat
+      melacak lokasi sepeda motor yang dicuri dan berkoordinasi dengan pihak berwenang untuk melakukan pemulihan.
+   3.	Geofencing: fitur yang memungkinkan pengguna untuk mengatur batas virtual atau geofence di sekitar area tertentu. Ketika sepeda motor yang dilengkapi dengan GPS
+      tracker memasuki atau keluar dari batas-batas ini, sistem akan mengirimkan peringatan kepada pemilik atau manajer armada, memberikan notifikasi secara langsung.
+   4.	Riwayat rute: GPS tracking juga dapat menyimpan riwayat rute yang telah ditempuh oleh sepeda motor. Informasi ini dapat digunakan untuk analisis perjalanan,
+      pemantauan kinerja, dan perencanaan perjalanan di masa depan.
+   5.	Fitur tambahan: Selain fitur utama yang disebutkan di atas, beberapa GPS tracker untuk sepeda motor juga dapat dilengkapi dengan fitur tambahan seperti pemantauan
+      kecepatan, notifikasi kebocoran bahan bakar, pemadaman mesin dari jarak jauh, dan sebagainya.
+   6.	GPS tracking untuk sepeda motor memberikan kemudahan dan keamanan tambahan bagi pemilik sepeda motor atau perusahaan yang memiliki armada sepeda motor. Dengan
+      memanfaatkan teknologi GPS, mereka dapat melacak dan mengawasi sepeda motor secara efektif dalam berbagai situasi.
 
-2. Deskripsi Keseluruhan
+   1.5 Referensi
+   
+   Dokumen ini merujuk pada hasil observasi yang berkaitan dengan kebutuhan dan mencakup data secara umum, diperlukannya dan penulis dokumen berdasarkan pada:
+   
+   1.	https://moladin.com/blog/fungsi-gps-tracker-motor/
+   2.	https://gpsku.co.id/gps-motor/
+   3.	https://www.sologlobaltracker.com/mengenal-gps-tracker-fungsi-manfaat-dan- penggunaannya-dalam-kehidupan-sehari-hari/
+   4.	https://openlibrary.telkomuniversity.ac.id/pustaka/files/162743/jurnal_eproc/pera ncangan-gps-tracking-untuk-penyewaan-kendaraan-bermotor.pdf
+   5.	https://appmaster.io/id/blog/proses-pengembangan-aplikasi-gps-dan-contohnya
+   6.	https://cartrack.id/id/5-fitur-gps-tracker-yang-wajib-ada-dalam-sistem-pemantauan-kendaraan
 
-2.1 Perspektif Produk
-GPS tracking untuk sepeda motor adalah produk yang sangat berguna dan inovatif dalam mengamankan dan melacak sepeda motor. Dari perspektif produk, berikut adalah beberapa poin penting yang perlu diperhatikan :
+   2. Deskripsi Keseluruhan
+  
+   2.1 Perspektif Produk
+      
+   GPS tracking untuk sepeda motor adalah produk yang sangat berguna dan inovatif dalam mengamankan dan melacak sepeda motor. Dari perspektif produk, berikut adalah
+   beberapa poin penting yang perlu diperhatikan :
+      
+   1.	Keamanan: GPS tracking untuk sepeda motor memberikan perlindungan tambahan terhadap pencurian. Dengan fitur pelacakan real-time, pemilik dapat dengan mudah
+      melacak lokasi sepeda motor mereka jika terjadi pencurian. Ini memberikan rasa aman dan meningkatkan peluang pemulihan kendaraan yang dicuri.
+   2.	Pemantauan armada: Produk GPS tracking juga bermanfaat bagi perusahaan atau pemilik sepeda motor dengan armada yang besar. Mereka dapat menggunakan sistem GPS
+      untuk memantau posisi, status, dan kinerja sepeda motor dalam satu platform. Ini membantu dalam pengelolaan armada secara efisien dan meningkatkan produktivitas.
+   3.	Geofencing: Fitur geofencing memungkinkan pengguna untuk membuat area virtual dan menerima notifikasi saat sepeda motor memasuki atau  meninggalkan area tersebut.
+      Ini sangat berguna untuk pengawasan wilayah terbatas atau area yang diinginkan. Misalnya, jika sepeda motor keluar dari wilayah yang ditentukan, pemilik akan
+      menerima peringatan segera.
+   4.	Integrasi dengan aplikasi dan platform: Produk GPS tracking sering dilengkapi dengan aplikasi mobile atau platform berbasis web yang mudah digunakan. Ini
+      memungkinkan pemilik untuk mengakses informasi dan mengontrol sepeda motor dari jarak jauh melalui perangkat mereka. Pengguna juga dapat melihat riwayat
+      perjalanan, mengatur peringatan khusus, dan melacak kinerja kendaraan.
+   5.	Pemantauan kinerja: Beberapa sistem GPS tracking juga menyediakan informasi tentang kecepatan, akselerasi, konsumsi bahan bakar, dan parameter lainnya. Ini
+      membantu pemilik sepeda motor untuk memantau kinerja kendaraan, mengidentifikasi masalah potensial, dan meningkatkan efisiensi.
 
-1.	Keamanan: GPS tracking untuk sepeda motor memberikan perlindungan tambahan terhadap pencurian. Dengan fitur pelacakan real-time, pemilik dapat dengan mudah melacak lokasi sepeda motor mereka jika terjadi pencurian. Ini memberikan rasa aman dan meningkatkan peluang pemulihan kendaraan yang dicuri.
-2.	Pemantauan armada: Produk GPS tracking juga bermanfaat bagi perusahaan atau pemilik sepeda motor dengan armada yang besar. Mereka dapat menggunakan sistem GPS untuk memantau posisi, status, dan kinerja sepeda motor dalam satu platform. Ini membantu dalam pengelolaan armada secara efisien dan meningkatkan produktivitas.
-3.	Geofencing: Fitur geofencing memungkinkan pengguna untuk membuat area virtual dan menerima notifikasi saat sepeda motor memasuki atau  meninggalkan area tersebut. Ini sangat berguna untuk pengawasan wilayah terbatas atau area yang diinginkan. Misalnya, jika sepeda motor keluar dari wilayah yang ditentukan, pemilik akan menerima peringatan segera.
-4.	Integrasi dengan aplikasi dan platform: Produk GPS tracking sering dilengkapi dengan aplikasi mobile atau platform berbasis web yang mudah digunakan. Ini memungkinkan pemilik untuk mengakses informasi dan mengontrol sepeda motor dari jarak jauh melalui perangkat mereka. Pengguna juga dapat melihat riwayat perjalanan, mengatur peringatan khusus, dan melacak kinerja kendaraan.
-5.	Pemantauan kinerja: Beberapa sistem GPS tracking juga menyediakan informasi tentang kecepatan, akselerasi, konsumsi bahan bakar, dan parameter lainnya. Ini membantu pemilik sepeda motor untuk memantau kinerja kendaraan, mengidentifikasi masalah potensial, dan meningkatkan efisiensi.
+   Dari perspektif pengguna, GPS tracking untuk sepeda motor merupakan alat yang sangat berharga untuk meningkatkan keamanan, melacak sepeda motor, dan meningkatkan
+   efisiensi penggunaan kendaraan. Produk ini memberikan ketenangan pikiran dan memberikan kontrol yang lebih besar atas aset berharga mereka.
+        	
+   2.2 Fungsi Produk
+      
+   Produk GPS tracking untuk sepeda motor memiliki berbagai fungsi yang berguna dalam penggunaan sehari-hari. Berikut ini adalah beberapa fungsi produk GPS tracking
+   untuk sepeda motor :
+      
+   1. Pelacakan Lokasi: Fungsi utama GPS tracking untuk sepeda motor adalah melacak lokasi kendaraan secara real-time. Pemilik sepeda motor dapat melihat posisi tepat
+      sepeda motor mereka melalui aplikasi atau platform yang terhubung dengan GPS tracker. Hal ini membantu dalam mengetahui lokasi sepeda motor jika terjadi pencurian
+      atau untuk memantau perjalanan.
+   2. Pencegahan Pencurian: Dengan GPS tracking, sepeda motor dapat dilacak dengan mudah jika terjadi pencurian. Pemilik dapat mengaktifkan fitur alarm atau notifikasi
+      yang akan memberi tahu mereka jika sepeda motor bergerak tanpa izin atau meninggalkan wilayah yang ditentukan. Ini membantu dalam pencegahan pencurian dan
+      memungkinkan pemilik untuk mengambil tindakan segera.
+   3.	Geofencing: Fungsi geofencing memungkinkan pemilik untuk membuat batas virtual di sekitar area tertentu. Jika sepeda motor keluar atau memasuki batas ini, pemilik
+      akan menerima pemberitahuan instan. Fitur ini berguna untuk membatasi wilayah perjalanan sepeda motor atau mengawasi sepeda motor yang dipinjam oleh orang lain.
+   4. Riwayat Perjalanan: GPS tracking juga dapat menyimpan riwayat perjalanan sepeda motor. Informasi ini meliputi waktu perjalanan, jarak yang ditempuh, dan rute
+      yang diambil. Pemilik sepeda motor dapat menggunakan data ini untuk memantau aktivitas sepeda motor, melacak penggunaan bahan bakar, atau melakukan analisis
+      perjalanan.
+   5.	Pemantauan Kinerja: Beberapa GPS tracking untuk sepeda motor menyediakan informasi tentang kecepatan, konsumsi bahan bakar, dan parameter lainnya. Fungsi ini
+      membantu pemilik untuk memantau kinerja sepeda motor, mengidentifikasi kebiasaan berkendara yang buruk, atau mendeteksi masalah teknis.
+   6.	Notifikasi Darurat: Beberapa GPS tracker dilengkapi dengan tombol darurat yang memungkinkan pengguna untuk mengirimkan sinyal darurat ke kontak yang ditentukan.
+      Fitur ini sangat berguna dalam situasi darurat atau keadaan mendesak di jalan.
 
-Dari perspektif pengguna, GPS tracking untuk sepeda motor merupakan alat yang sangat berharga untuk meningkatkan keamanan, melacak sepeda motor, dan meningkatkan efisiensi penggunaan kendaraan. Produk ini memberikan ketenangan pikiran dan memberikan kontrol yang lebih besar atas aset berharga mereka.
+   GPS tracking untuk sepeda motor merupakan alat yang bermanfaat dalam meningkatkan keamanan, pemantauan, dan efisiensi penggunaan sepeda motor. Dengan fungsi
+   fungsinya yang beragam, produk ini memberikan keuntungan bagi pemilik sepeda motor dalam menjaga keamanan kendaraan mereka dan memantau aktivitasnya.
 
-2.2 Fungsi Produk
-Produk GPS tracking untuk sepeda motor memiliki berbagai fungsi yang berguna dalam penggunaan sehari-hari. Berikut ini adalah beberapa fungsi produk GPS tracking untuk sepeda motor :
+   2.3 Kelas dan Karakteristik Pengguna
+   
+   Pengguna GPS tracking untuk sepeda motor adalah individu atau perusahaan yang memiliki sepeda motor dan ingin meningkatkan keamanan, pemantauan, dan efisiensi
+   penggunaannya. Berikut adalah deskripsi pengguna GPS tracking untuk sepeda  motor:
 
-1.	Pelacakan Lokasi: Fungsi utama GPS tracking untuk sepeda motor adalah melacak lokasi kendaraan secara real-time. Pemilik sepeda motor dapat melihat posisi tepat sepeda motor mereka melalui aplikasi atau platform yang terhubung dengan GPS tracker. Hal ini membantu dalam mengetahui lokasi sepeda motor jika terjadi pencurian atau untuk memantau perjalanan.
-2.	Pencegahan Pencurian: Dengan GPS tracking, sepeda motor dapat dilacak dengan mudah jika terjadi pencurian. Pemilik dapat mengaktifkan fitur alarm atau notifikasi yang akan memberi tahu mereka jika sepeda motor bergerak tanpa izin atau meninggalkan wilayah yang ditentukan. Ini membantu dalam pencegahan pencurian dan memungkinkan pemilik untuk mengambil tindakan segera.
-3.	Geofencing: Fungsi geofencing memungkinkan pemilik untuk membuat batas virtual di sekitar area tertentu. Jika sepeda motor keluar atau memasuki batas ini, pemilik akan menerima pemberitahuan instan. Fitur ini berguna untuk membatasi wilayah perjalanan sepeda motor atau mengawasi sepeda motor yang dipinjam oleh orang lain.\
-4.	Riwayat Perjalanan: GPS tracking juga dapat menyimpan riwayat perjalanan sepeda motor. Informasi ini meliputi waktu perjalanan, jarak yang ditempuh, dan rute yang diambil. Pemilik sepeda motor dapat menggunakan data ini untuk memantau aktivitas sepeda motor, melacak penggunaan bahan bakar, atau melakukan analisis perjalanan.
-5.	Pemantauan Kinerja: Beberapa GPS tracking untuk sepeda motor menyediakan informasi tentang kecepatan, konsumsi bahan bakar, dan parameter lainnya. Fungsi ini membantu pemilik untuk memantau kinerja sepeda motor, mengidentifikasi kebiasaan berkendara yang buruk, atau mendeteksi masalah teknis.
-6.	Notifikasi Darurat: Beberapa GPS tracker dilengkapi dengan tombol darurat yang memungkinkan pengguna untuk mengirimkan sinyal darurat ke kontak yang ditentukan. Fitur ini sangat berguna dalam situasi darurat atau keadaan mendesak di jalan.
+   1. Pemilik Sepeda Motor Pribadi: Pengguna ini adalah individu yang memiliki sepeda motor untuk penggunaan pribadi. Mereka menggunakan GPS tracking untuk memastikan
+      keamanan sepeda motor mereka. Mereka dapat melacak lokasi sepeda motor secara real-time dan menerima pemberitahuan jika ada aktivitas mencurigakan atau sepeda
+      motor keluar dari area yang ditentukan. Pemilik sepeda motor pribadi juga dapat menggunakan fitur riwayat perjalanan untuk memantau penggunaan sepeda motor dan
+      mengidentifikasi pola perjalanan.
+   2.	Pemilik Rental Motor: Pengguna ini adalah pemilik bisnis rental sepeda motor. Mereka menggunakan GPS tracking untuk memantau dan melacak sepeda motor yang
+      disewakan kepada pelanggan. GPS tracking memungkinkan pemilik rental motor untuk mengetahui lokasi sepeda motor yang disewakan, memastikan pemakaian yang sesuai,
+      dan memungkinkan pemulihan sepeda motor jika terjadi pelanggaran kontrak atau pencurian.
+   3. Perusahaan Kurir atau Pengiriman: Perusahaan pengiriman menggunakan GPS tracking untuk mengawasi dan mengoptimalkan pengiriman paket atau barang dengan sepeda
+      motor. Mereka dapat melacak posisi sepeda motor kurir dalam perjalanan, memantau waktu pengiriman, dan mengatur rute yang efisien. Fitur geofencing juga membantu
+      dalam mengatur batasan wilayah kerja dan memberikan peringatan jika sepeda motor keluar dari rute yang ditentukan.
+   4. Perusahaan Armada Sepeda Motor: Perusahaan dengan armada sepeda motor menggunakan GPS tracking untuk manajemen armada mereka. Mereka dapat melacak lokasi dan
+      aktivitas setiap sepeda motor dalam armada secara real- time, memantau performa dan penggunaan bahan bakar, serta melakukan perencanaan perawatan yang efektif.
+      GPS tracking juga membantu dalam mengoptimalkan jadwal pengiriman atau pemeliharaan sepeda motor.
 
-GPS tracking untuk sepeda motor merupakan alat yang bermanfaat dalam meningkatkan keamanan, pemantauan, dan efisiensi penggunaan sepeda motor. Dengan fungsi-fungsinya yang beragam, produk ini memberikan keuntungan bagi pemilik sepeda motor dalam menjaga keamanan kendaraan mereka dan memantau aktivitasnya.
+   Pengguna GPS tracking untuk sepeda motor memiliki kepentingan yang beragam, termasuk keamanan kendaraan, pemantauan penggunaan, efisiensi operasional, dan
+   peningkatan layanan pelanggan. Dengan menggunakan GPS tracking, mereka dapat memaksimalkan penggunaan sepeda motor, mengurangi risiko pencurian, dan meningkatkan
+   efektivitas dalam manajemen armada atau operasi pengiriman.
 
-2.3 Kelas dan Karakteristik Pengguna
-Pengguna GPS tracking untuk sepeda motor adalah individu atau perusahaan yang memiliki sepeda motor dan ingin meningkatkan keamanan, pemantauan, dan efisiensi penggunaannya. Berikut adalah deskripsi pengguna GPS tracking untuk sepeda  motor:
 
-1.	Pemilik Sepeda Motor Pribadi: Pengguna ini adalah individu yang memiliki sepeda motor untuk penggunaan pribadi. Mereka menggunakan GPS tracking untuk memastikan keamanan sepeda motor mereka. Mereka dapat melacak lokasi sepeda motor secara real-time dan menerima pemberitahuan jika ada aktivitas mencurigakan atau sepeda motor keluar dari area yang ditentukan. Pemilik sepeda motor pribadi juga dapat menggunakan fitur riwayat perjalanan untuk memantau penggunaan sepeda motor dan mengidentifikasi pola perjalanan.
-2.	Pemilik Rental Motor: Pengguna ini adalah pemilik bisnis rental sepeda motor. Mereka menggunakan GPS tracking untuk memantau dan melacak sepeda motor yang disewakan kepada pelanggan. GPS tracking memungkinkan pemilik rental motor untuk mengetahui lokasi sepeda motor yang disewakan, memastikan pemakaian yang sesuai, dan memungkinkan pemulihan sepeda motor jika terjadi pelanggaran kontrak atau pencurian.
-3.	Perusahaan Kurir atau Pengiriman: Perusahaan pengiriman menggunakan GPS tracking untuk mengawasi dan mengoptimalkan pengiriman paket atau barang dengan sepeda motor. Mereka dapat melacak posisi sepeda motor kurir dalam perjalanan, memantau waktu pengiriman, dan mengatur rute yang efisien. Fitur geofencing juga membantu dalam mengatur batasan wilayah kerja dan memberikan peringatan jika sepeda motor keluar dari rute yang ditentukan.
-4.	Perusahaan Armada Sepeda Motor: Perusahaan dengan armada sepeda motor menggunakan GPS tracking untuk manajemen armada mereka. Mereka dapat melacak lokasi dan aktivitas setiap sepeda motor dalam armada secara real- time, memantau performa dan penggunaan bahan bakar, serta melakukan perencanaan perawatan yang efektif. GPS tracking juga membantu dalam mengoptimalkan jadwal pengiriman atau pemeliharaan sepeda motor.
+   2.4 Lingkungan Pengembangan
+   
+   Peralatan operasional untuk GPS tracking sepeda motor terdiri dari beberapa komponen yang bekerja secara bersama-sama untuk melacak dan memantau sepeda motor.
+   
+   Berikut adalah peralatan utama yang terlibat dalam operasional GPS tracking sepeda motor :
+      1.	GPS Tracker: GPS tracker adalah perangkat yang dipasang pada sepeda motor untuk melacak lokasi dan mengirimkan data melalui sinyal GPS. GPS tracker dapat
+         berbentuk perangkat kecil yang terpasang di bawah jok, di bawah bodi, atau di bagian lain yang tersembunyi pada sepeda motor. Ini berfungsi untuk mengumpulkan
+         informasi lokasi dan mentransmisikannya ke server atau platform yang terhubung.
+      2.	GPS Satelit: GPS tracker menggunakan sinyal dari jaringan satelit GPS untuk menentukan lokasi yang akurat. Jaringan satelit ini mengorbit di sekitar Bumi dan
+         menyediakan sinyal yang diterima oleh GPS tracker untuk menentukan koordinat geografis sepeda motor.
+      3.	SIM Card: Beberapa GPS tracker membutuhkan kartu SIM untuk mengirim data lokasi dan informasi melalui jaringan seluler. Kartu SIM ini digunakan untuk
+         menghubungkan GPS tracker dengan server atau platform yang dikelola, sehingga data dapat dikirim secara real-time.
+      4.	Server atau Platform: Data yang dikumpulkan oleh GPS tracker dikirim  ke server atau platform yang terhubung. Ini bisa berupa server perusahaan atau platform
+         berbasis web yang dapat diakses melalui aplikasi mobile atau situs web. Server atau platform ini menerima dan menyimpan data lokasi, riwayat perjalanan, dan
+        	informasi lainnya dari sepeda motor yang dilacak.
+      5.	Aplikasi Mobile atau Web: Pengguna GPS tracking dapat mengakses informasi dan mengendalikan sepeda motor melalui aplikasi mobile atau platform berbasis web.
+         Aplikasi ini biasanya menyediakan tampilan real-time dari posisi sepeda motor, notifikasi, riwayat perjalanan, dan fitur pengaturan lainnya seperti geofencin
+        	atau alarm.
 
-Pengguna GPS tracking untuk sepeda motor memiliki kepentingan yang beragam, termasuk keamanan kendaraan, pemantauan penggunaan, efisiensi operasional, dan peningkatan layanan pelanggan. Dengan menggunakan GPS tracking, mereka dapat memaksimalkan penggunaan sepeda motor, mengurangi risiko pencurian, dan meningkatkan efektivitas dalam manajemen armada atau operasi pengiriman.
-
-2.4 Lingkungan Pengembangan
-Peralatan operasional untuk GPS tracking sepeda motor terdiri dari beberapa komponen yang bekerja secara bersama-sama untuk melacak dan memantau sepeda motor. Berikut adalah peralatan utama yang terlibat dalam operasional GPS tracking sepeda motor :
-
-1.	GPS Tracker: GPS tracker adalah perangkat yang dipasang pada sepeda motor untuk melacak lokasi dan mengirimkan data melalui sinyal GPS. GPS tracker dapat berbentuk perangkat kecil yang terpasang di bawah jok, di bawah bodi, atau di bagian lain yang tersembunyi pada sepeda motor. Ini berfungsi untuk mengumpulkan informasi lokasi dan mentransmisikannya ke server atau platform yang terhubung.
-2.	GPS Satelit: GPS tracker menggunakan sinyal dari jaringan satelit GPS untuk menentukan lokasi yang akurat. Jaringan satelit ini mengorbit di sekitar Bumi dan menyediakan sinyal yang diterima oleh GPS tracker untuk menentukan koordinat geografis sepeda motor.
-3.	SIM Card: Beberapa GPS tracker membutuhkan kartu SIM untuk mengirim data lokasi dan informasi melalui jaringan seluler. Kartu SIM ini digunakan untuk menghubungkan GPS tracker dengan server atau platform yang dikelola, sehingga data dapat dikirim secara real-time.
-4.	Server atau Platform: Data yang dikumpulkan oleh GPS tracker dikirim  ke server atau platform yang terhubung. Ini bisa berupa server perusahaan atau platform berbasis web yang dapat diakses melalui aplikasi mobile atau situs web. Server atau platform ini menerima dan menyimpan data lokasi, riwayat perjalanan, dan informasi lainnya dari sepeda motor yang dilacak.
-5.	Aplikasi Mobile atau Web: Pengguna GPS tracking dapat mengakses informasi dan mengendalikan sepeda motor melalui aplikasi mobile atau platform berbasis web. Aplikasi ini biasanya menyediakan tampilan real-time dari posisi sepeda motor, notifikasi, riwayat perjalanan, dan fitur pengaturan lainnya seperti geofencing atau alarm.
-
-Selain komponen utama ini, ada juga perangkat tambahan yang dapat digunakan dalam operasional GPS tracking sepeda motor, seperti sensor tambahan untuk pemantauan kecepatan atau status mesin, dan perangkat pemancar alarm atau tombol darurat untuk situasi darurat. Peralatan operasional GPS tracking sepeda motor bekerja secara bersama-sama untuk mengumpulkan, mentransmisikan, dan menganalisis data lokasi dan informasi terkait sepeda motor. Ini memberikan pemilik atau pengguna sepeda motor kemampuan untuk memantau dan  melindungi kendaraan mereka secara efektif.
+   Selain komponen utama ini, ada juga perangkat tambahan yang dapat digunakan dalam operasional GPS tracking sepeda motor, seperti sensor tambahan untuk pemantauan
+   kecepatan atau status mesin, dan perangkat pemancar alarm atau tombol darurat untuk situasi darurat. Peralatan operasional GPS tracking sepeda motor bekerja
+   secara bersama-sama untuk mengumpulkan, mentransmisikan, dan menganalisis data lokasi dan informasi terkait sepeda motor. Ini memberikan pemilik atau pengguna
+   sepeda motor kemampuan untuk memantau dan  melindungi kendaraan mereka secara efektif.
 
 2.5 Kendala Desain dan Implementasi
 Pengujian GPS Tracking Motorcycle sudah dilakukan dan tidak ada kendala. Semua sistem sudah berjalan sesuai yang diharapkan dan berjalan dengan baik. Desain dan implementasi GPS tracking untuk sepeda motor melibatkan beberapa langkah dan komponen teknis. Berikut adalah langkah-langkah umum yang terlibat dalam desain dan implementasi GPS tracking untuk sepeda motor :
