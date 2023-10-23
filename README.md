@@ -333,33 +333,33 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
    | Software | Kumpulan program komputer yang dirancang untuk menjalankan tugas spesifik pada suatu perangkat lunak komputer |
    | Hardware | Komponen fisik yang membentuk dari suatu sistem komputer |
 
-   
-   ![WhatsApp Image 2023-10-22 at 17 57 37_1ba8912a](https://github.com/putripuspita240/gps-tracking/assets/124540466/f7c4a4d3-20f3-4979-ac78-237bd651017f)
-
    Lampiran B: Model Analisis
    A. DFD (Data Flow Diagram)
    
+   ![WhatsApp Image 2023-10-22 at 17 57 37_1ba8912a](https://github.com/putripuspita240/gps-tracking/assets/124540466/f7c4a4d3-20f3-4979-ac78-237bd651017f)
+
+   B ERD (Entity Relationship Diagram)
+   
    ![WhatsApp Image 2023-10-22 at 17 58 00_a4d5818a](https://github.com/putripuspita240/gps-tracking/assets/124540466/312c2159-0498-4bc3-aab7-6a4aade826fa)
 
-   E. Flowchart Login
+   C. Flowchart Login
    
    ![WhatsApp Image 2023-10-22 at 17 59 07_576ed473](https://github.com/putripuspita240/gps-tracking/assets/124540466/8e6ad3e7-dfdc-4e89-9905-db20050af5cc)
 
-   F. Use Case Diagram
+   D. Use Case Diagram
    
    ![Use Case GPS Tracking (1)](https://github.com/putripuspita240/gps-tracking/assets/124540466/4bd4df04-d0e6-42ee-9e9b-1074df3f7faf)
 
    Lampiran C: Daftar Fitur Yang Akan Ditentukan
-   
-   Nomor Persyaratan	Nama Persyaratan	Halaman
-   REQ-1	   Lingkup Produk	             2 - 3
-   REQ 2	   Fungsi Product	             4 - 5
-   REQ-3	   Antarmuka Pengguna	      11 - 14
-   REQ-4	   Fitur Sistem	              16
-   REQ-5	   Proses Bisnis	              20
-   REQ-6	   Diagram Usecase	           24
 
-
+   | Nomor Persyaratan | Nama Persyaratan |
+   | ------ | ------ |
+   | REQ-1 | Lingkup Produk |
+   | REQ-2 | Fungsi Produk |
+   | REQ-3 | Antarmuka Pengguna |
+   | REQ-4 | Fitur Sistem |
+   | REQ-5 | Proses Bisnis |
+   | REQ-6 | Diagram Usecase |
 
 ## 7. Penjelasan Codingan
 7.1 Index.html
