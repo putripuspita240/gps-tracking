@@ -12,7 +12,6 @@ Fakultas Vokasi Universitas Negeri Surabaya
 
 Daftar Isi
 1.	Pengantar
-   
 1.1 Tujuan	
 1.2 Konvensi Dokumen	
 1.3 Audiens Yang Dituju	
