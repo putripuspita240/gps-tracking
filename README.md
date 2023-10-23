@@ -53,7 +53,7 @@ Tujuan pembuatan website GPS Tracking Motorcycle antara lain :
 4.	Melacak posisi sepeda motor yang hilang
 5.	Memberikan informasi lokasi sepeda motor
 6.	Memantau aktivitas berkendara
-   
+
 1.2	 Konvensi Dokumen
 Website yang akan dikembangkan adalah GPS Tracking Motorcycle, sebuah aplikasi yang memungkinkan pemilik sepeda motor untuk melacak dan memantau pergerakan sepeda motornya secara real-time. Website ini memanfaatkan teknologi GPS (Global Positioning System) untuk menentukan posisi sepeda motor. GPS Tracking Motorcycle dapat melakukan hal-hal berikut ini :
 
