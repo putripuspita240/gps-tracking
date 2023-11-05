@@ -470,7 +470,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    
 7.2 Tentang.html
 
-   <img width="671" alt="1-10 (2)" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/fc8dc198-748d-4de7-868b-f827bf709ba1">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/469c8903-af02-4fb3-9848-0a85b1a6ed4f)
+
    
    - deklarasi tipe dokumen (document type declaration) yang menunjukkan bahwa halaman ini menggunakan standar HTML5.
    - `<html>` adalah elemen root dari halaman web. `lang="en"` menandakan bahwa konten halaman ditulis dalam bahasa Inggris (English).
@@ -484,7 +485,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
       ini.
    - `<body>` adalah tempat konten aktual dari halaman web ditempatkan, seperti teks, gambar, formulir, dan elemen-elemen lainnya.
 
-   <img width="677" alt="12-34 (2)" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/54de2aca-7f6d-4b37-961a-0a34d1317b77">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/c8e8f23f-e1b5-4c6f-94ce-5063da50a9d0)
+
    
    - `<nav>` yang menunjukkan bahwa ini adalah bagian dari halaman web yang berisi navigasi.
    - `navbar`: Memberi tahu Bootstrap untuk merender elemen ini sebagai bagian dari navbar.
@@ -502,8 +504,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `<a class="nav-link" href="index.html">Home</a>` dan `<a class="nav-link active" aria-current="page" href="tentang.html">Tentang Kami</a>` adalah tautan menu
      navigasi. Tautan dengan kelas `nav-link` akan membuka halaman terkait ketika diklik. Kelas `active` menunjukkan halaman saat ini atau halaman yang sedang aktif.
 
-   <img width="670" alt="36-44" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/dd0032b4-d612-4a15-9096-a62f76549667">
-   
+ ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/69b850b1-2080-4637-a1fb-3b919b8781e3)
+
    - `<header>` yang menandakan bahwa ini adalah bagian kepala (atas) dari halaman web Anda. Biasanya, elemen `<header>` digunakan untuk menyertakan elemen-elemen yang
      berada di bagian atas halaman, seperti judul utama, deskripsi singkat, dan tautan menu penting.
    - `<div class="hero">`: Ini adalah elemen div yang diberi kelas "hero" untuk memberi gaya khusus menggunakan CSS. Elemen ini adalah kontainer utama untuk konten hero.
@@ -513,7 +515,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
      halaman web (dalam hal ini, menuju elemen dengan id "info"). Tombol ini memiliki ID "learnMoreBtn", yang mungkin digunakan untuk memanipulasinya dengan JavaScript
      atau CSS.
 
-   <img width="677" alt="46-58" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/a14ccea1-a65f-4228-9c4c-b2b9da5323ba">
+![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/1c039647-8c9c-42f6-a476-ba0fa50c19d6)
+
    
    - `<section>` yang memiliki kelas "info" dan ID "info". Kelas "info" mungkin digunakan untuk memberikan gaya CSS khusus pada bagian ini, dan ID "info" dapat digunakan
      sebagai tautan dalam halaman web untuk mengarahkan pengguna ke bagian ini.
@@ -526,7 +529,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `<h1>GPS Tracking Motorcycle</h1>`: Ini adalah judul utama bagian dengan teks "GPS Tracking Motorcycle".
    - `<p>... </p>`: Ini adalah elemen paragraf (p) yang berisi deskripsi singkat tentang layanan GPS Tracking Motorcycle.
 
-   <img width="668" alt="60-70" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/7cde5d32-0771-4291-ab9c-ef3431e96c8f">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/c7209c24-a2c2-4f5d-b0ab-7fb1bf00f152)
+
    
    - `<div class="container">` menandakan bahwa ini adalah sebuah wadah atau kontainer yang mengelilingi konten di dalamnya. Elemen ini sering digunakan dalam desain web
      untuk mengatur tata letak dan membatasi lebar konten agar sesuai dengan desain halaman.
@@ -541,7 +545,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
      Rute".
    - `<p>Riwayat Rute</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Riwayat Rute". Teks ini akan muncul di bagian belakang kotak flip ketika kotak ini di-"flip".
 
-   <img width="667" alt="71-80" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/dffd5ac9-2fcc-4f5e-b1f8-ee2bdde45a5c">
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/b117d204-ac94-482f-9cb7-c9adb58b825a)
+
    
    - div dengan kelas "flip-box". Elemen ini akan digunakan untuk membuat kotak flip dengan dua sisi, yaitu bagian depan dan belakang yang dapat berubah saat dihover atau
      di-clicked.
@@ -556,7 +561,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `<p class="text-center">Pelacakan Lokasi Real Time</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Pelacakan Lokasi Real Time" dan diberi kelas "text-center"
      untuk memberikan tata letak teks yang terpusat.
 
-   <img width="670" alt="81-93" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/0ae1d3a7-c595-413a-9260-e92032142241">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/c0340fe0-30d1-46a7-9bd8-94a00053b861)
+
    
    - `<div>` menandakan akhir dari elemen dengan kelas "container" yang dimulai sebelumnya.
    - div dengan kelas "flip-box". Elemen ini akan digunakan untuk membuat kotak flip dengan dua sisi, yaitu bagian depan dan belakang yang dapat berubah saat dihover atau
@@ -571,7 +577,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `<p>Temukan Lokasi</p>`: Ini adalah elemen paragraf (p) yang berisi teks "Temukan Lokasi". Teks ini akan muncul di bagian belakang kotak flip ketika kotak ini di
      hover atau di-click.
 
-   <img width="676" alt="95-112" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/e00a8115-307a-455f-ac66-2966c48b7d0d">
+![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/d2e2fabd-d050-4a7d-b64a-69523e28a34b)
+
    
    - footer yang biasanya digunakan untuk menempatkan informasi pemberitahuan atau hak cipta di bagian bawah halaman web.
    - `<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">`: Ini adalah elemen div dengan kelas "text-center" dan padding sebesar 4 (p-4). Latar
