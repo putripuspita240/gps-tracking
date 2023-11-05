@@ -365,8 +365,8 @@ c.	Merekam Riwayat Perjalanan : Admin dapat merekam riwayat perjalanan kendaraan
 ## 7. Penjelasan Codingan
 7.1 Index.html
 Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
-   
-   <img width="674" alt="1-10" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/bd9e1a26-09dd-4b62-8936-7c146eeb647d">
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/4d507090-f7f2-4b63-8aea-191abd3f3d9c)
+
     
    - `<!doctype html>`, memberitahu browser bahwa dokumen ini adalah dokumen HTML5.
    - `<html>` membuka dan menutup elemen HTML, dengan atribut `lang` yang menetapkan bahasa dokumen, dalam hal ini, bahasa Inggris (`en`).
@@ -381,8 +381,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `<body>` adalah bagian utama dari halaman web yang berisi konten yang akan ditampilkan kepada pengguna. Namun, dalam potongan kode yang Anda berikan, elemen `<body>`
    ditutup tanpa konten di dalamnya.
 
-   <img width="675" alt="12-34" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/6e5e800d-836b-45ec-8038-b5ebf60fd7f3">
-   
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/298ea047-355f-46fd-a460-1f2e15a8981f)
+
    - `navbar` menunjukkan bahwa ini adalah elemen navbar Bootstrap.
    - `navbar-expand-lg` mengindikasikan bahwa navbar akan diperluas (expanded) pada perangkat dengan lebar layar yang besar (`lg`). `bg-body-tertiary` menetapkan warna
    latar
@@ -397,7 +397,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - ada dua elemen menu navigasi (`<li class="nav-item">`) yang berisi tautan (`<a class="nav-link">`) ke halaman "Home" dan "Tentang Kami".
    - `</nav>` adalah penutup untuk elemen navbar.
 
-   <img width="675" alt="36-56" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/e239c2c6-0b53-4543-bd57-b5e2675a57cd">
+![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/2aec5f61-eb58-402e-bd33-fffca9f950fd)
+
    
    - "carouselExampleCaptions" digunakan untuk mengidentifikasi elemen ini dan mengaitkannya dengan tombol navigasi.
    setiap tombol mempunyai atribut `data-bs-target` yang menunjukkan ID carousel dan `data-bs-slide-to` yang menunjukkan nomor slide yang sesuai.
@@ -407,7 +408,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    (`<p>`) dari slide tersebut.
    - `</div>` adalah penutup dari elemen carousel.
 
-   <img width="673" alt="57-75" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/1a6ff553-ef0d-4822-9662-73b61fcabebd">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/86ef4aeb-27bb-43c0-865c-e362b51780da)
+
    
    - slide tambahan dalam carousel. Slide ini memiliki gambar motor (`<img>`) dan elemen `<div class="carousel-caption">` yang berisi judul dan deskripsi.
    - `carousel-control-prev` adalah tombol navigasi untuk slide sebelumnya.
@@ -416,7 +418,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `data-bs-slide="next"` mengindikasikan bahwa tombol ini akan menggulir ke slide berikutnya.
    - `<!-- End Carousel -->` adalah penutup dari elemen carousel. Dengan adanya kode ini, elemen carousel selesai.
 
-   <img width="664" alt="77-101" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/4a17ac5a-98db-4636-a2ef-48d5d56caed1">
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/e2cf568f-d798-4ab5-959e-971bba149a1f)
+
    
    - div utama dengan kelas `container`, yang memberikan padding dan mengontrol lebar elemen-elemen di dalamnya.
    - `text-center` mengatur teks dan konten di dalamnya ke tengah halaman
@@ -430,8 +433,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `mt-5` memberikan margin atas sejauh 5 satuan. Ada judul h2 "Tentang Kami" yang mungkin digunakan sebagai anchor link (karena memiliki ID), dan sebuah paragraf yang
    mendeskripsikan layanan ("GPS Tracking Motorcycle").
 
-   <img width="666" alt="103-124" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/ea08e640-0f27-4e14-8226-8eec02170d73">
-   
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/a2120f3b-7a9a-40d3-8a6a-dc2284f9110c)
+
    - `container` yang memberikan padding dan mengontrol lebar elemen-elemen di dalamnya.
    - `mt-4` memberikan margin atas sejauh 4 satuan.
    - kolom pertama dengan lebar medium (`col-md-5`), yang mendapatkan setengah dari lebar total pada perangkat dengan ukuran medium (dan lebih besar).
@@ -441,7 +444,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - `data-toggle="tab"` memberi tahu Bootstrap untuk mengaktifkan tab saat tautan diklik.
    tab pertama (`Pelacakan Real Time`) memiliki kelas `active` untuk menunjukkan bahwa itu adalah tab aktif secara default.
 
-   <img width="676" alt="126-147" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/0a0ff4f5-ae73-4627-8dd6-db58218e0e41">
+   ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/e00c5ec2-12cb-4f49-8bb7-56ef866d683d)
+
    
    - div dengan kelas `tab-content` yang menampung konten dari setiap tab. `mt-5` memberikan margin atas sejauh 5 satuan.
    - tab pertama dengan ID `tab1`. Kelas `tab-pane` memberi tahu Bootstrap bahwa ini adalah konten dari tab. Kelas `fade` memberi efek fade saat tab diubah.
@@ -451,7 +455,8 @@ Kode html yang diberikan adalah struktur dasar dari sebuah halaman web
    - tab keempat dengan ID `tab4`. Ini menjelaskan tentang penyimpanan riwayat rute yang telah ditempuh menggunakan GPS tracking.
    - `<!-- End Main --> ` adalah penutup dari elemen-elemen tab content dan kontainer utama.
 
-   <img width="674" alt="149-166" src="https://github.com/putripuspita240/gps-tracking/assets/124545014/5e0d0b66-e8bf-40ff-9dae-94f7691ee059">
+  ![image](https://github.com/putripuspita240/gps-tracking/assets/124505117/af736151-d4c5-4680-97ca-42a0e83fddda)
+
    
    - elemen footer yang diberi kelas Bootstrap untuk mengatur teks ke tengah (`text-center`), memberi warna latar belakang `bg-light`, dan memberi warna teks `text-muted`.
    di dalamnya terdapat teks copyright dan tautan ke halaman "Kelompok 9".
